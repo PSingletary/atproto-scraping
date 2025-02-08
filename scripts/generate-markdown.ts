@@ -223,7 +223,7 @@ Instances that have not been active for more than 14 days gets dropped off from 
 	}
 
 	function isBlueskyHost(host: string): boolean {
-		return /(?:^|\.)(?:bsky\.network|bsky\.app|bsky\.dev|bsky\.social)$/.test(host);
+		return /(?:^|\.)(?:bsky\.network|bsky\.app|bsky\.dev)$|^(?:bsky\.social)$/.test(host);
 	}
 
 	function sanitize(str: string): string {
