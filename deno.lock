@@ -1,12 +1,18 @@
 {
   "version": "4",
   "specifiers": {
+    "jsr:@mary/array-fns@~0.1.2": "0.1.2",
     "npm:@atcute/bluesky@^1.0.11": "1.0.11_@atcute+client@2.0.6",
     "npm:@atcute/client@^2.0.6": "2.0.6",
     "npm:@badrap/valita@~0.4.2": "0.4.2",
     "npm:date-fns@^4.1.0": "4.1.0",
     "npm:p-map@^7.0.3": "7.0.3",
     "npm:tldts@^6.1.69": "6.1.69"
+  },
+  "jsr": {
+    "@mary/array-fns@0.1.2": {
+      "integrity": "7619c1d208b5bd565335a6370f29981b74304fea0703f54975fc3180a01cedb3"
+    }
   },
   "npm": {
     "@atcute/bluesky@1.0.11_@atcute+client@2.0.6": {
@@ -39,6 +45,7 @@
   },
   "workspace": {
     "dependencies": [
+      "jsr:@mary/array-fns@~0.1.2",
       "npm:@atcute/bluesky@^1.0.11",
       "npm:@atcute/client@^2.0.6",
       "npm:@badrap/valita@~0.4.2",

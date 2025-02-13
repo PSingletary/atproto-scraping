@@ -1,3 +1,5 @@
+import { definite } from '@mary/array-fns';
+
 const MAX_LENGTH = 1 * 1000 * 1000;
 const MAX_DURATION = 10_000;
 
@@ -73,7 +75,7 @@ export const jsonFetch: typeof fetch = async (input, init) => {
 };
 
 const followAbortSignal = (signals: (AbortSignal | null | undefined)[]): AbortSignal | undefined => {
-	const filtered = signals.filter((signal): signal is AbortSignal => signal != null);
+	const filtered = definite(signals);
 
 	if (filtered.length === 0) {
 		return;
@@ -82,19 +84,5 @@ const followAbortSignal = (signals: (AbortSignal | null | undefined)[]): AbortSi
 		return filtered[0];
 	}
 
-	const controller = new AbortController();
-	const own = controller.signal;
-
-	for (let idx = 0, len = filtered.length; idx < len; idx++) {
-		const signal = filtered[idx];
-
-		if (signal.aborted) {
-			controller.abort(signal.reason);
-			break;
-		}
-
-		signal.addEventListener('abort', () => controller.abort(signal.reason), { signal: own });
-	}
-
-	return own;
+	return AbortSignal.any(filtered);
 };
