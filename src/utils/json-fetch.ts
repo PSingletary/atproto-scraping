@@ -1,5 +1,5 @@
 const MAX_LENGTH = 1 * 1000 * 1000;
-const MAX_DURATION = 5_000;
+const MAX_DURATION = 10_000;
 
 export const jsonFetch: typeof fetch = async (input, init) => {
 	const response = await fetch(input, {
