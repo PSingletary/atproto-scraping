@@ -15,7 +15,7 @@ export const createWebSocketStream = <T = any>(url: string | URL) => {
 					if (ev.wasClean) {
 						controller.close();
 					} else {
-						controller.error(new Error(`websocket error ${ev.code}`));
+						controller.error(new Error(`websocket error ${ev.code}: ${ev.reason}`));
 					}
 				}
 			};
