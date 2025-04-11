@@ -1,3 +1,5 @@
+import { defs, getLabelerEndpoint, getPdsEndpoint } from '@atcute/identity';
+
 import { differenceInDays } from 'date-fns/differenceInDays';
 import pmap from 'p-map';
 
@@ -17,12 +19,7 @@ import {
 	MAX_FAILURE_DAYS,
 	PLC_URL,
 } from '../src/constants.ts';
-import {
-	coerceAtprotoServiceEndpoint,
-	didDocument,
-	getLabelerEndpoint,
-	getPdsEndpoint,
-} from '../src/utils/did.ts';
+import { coerceAtprotoServiceEndpoint } from '../src/utils/did.ts';
 import { jsonFetch } from '../src/utils/json-fetch.ts';
 import { LineBreakStream } from '../src/utils/stream.ts';
 import { createWebSocketStream } from '../src/utils/websocket.ts';
@@ -287,14 +284,14 @@ let firehoseCursor: number | undefined = state?.firehose.cursor;
 
 			if (obj.hash !== sha256sum) {
 				const json = JSON.parse(text);
-				const doc = didDocument.parse(json, { mode: 'passthrough' });
-
-				const pds = getPdsEndpoint(doc);
-				const labeler = getLabelerEndpoint(doc);
+				const doc = defs.didDocument.parse(json, { mode: 'passthrough' });
 
 				if (doc.id !== did) {
 					throw new Error(`did mismatch (got ${doc.id})`);
 				}
+
+				const pds = coerceAtprotoServiceEndpoint(getPdsEndpoint(doc));
+				const labeler = coerceAtprotoServiceEndpoint(getLabelerEndpoint(doc));
 
 				console.log(`  ${did}: pass (updated)`);
 
