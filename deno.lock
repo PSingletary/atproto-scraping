@@ -1,31 +1,31 @@
 {
   "version": "4",
   "specifiers": {
-    "jsr:@mary/array-fns@~0.1.2": "0.1.2",
-    "npm:@atcute/bluesky@^1.0.11": "1.0.11_@atcute+client@2.0.6",
-    "npm:@atcute/client@^2.0.6": "2.0.6",
-    "npm:@badrap/valita@~0.4.2": "0.4.2",
+    "jsr:@mary/array-fns@~0.1.4": "0.1.4",
+    "npm:@atcute/bluesky@2": "2.0.0_@atcute+client@3.0.0",
+    "npm:@atcute/client@3": "3.0.0",
+    "npm:@badrap/valita@~0.4.3": "0.4.3",
     "npm:date-fns@^4.1.0": "4.1.0",
     "npm:p-map@^7.0.3": "7.0.3",
-    "npm:tldts@^6.1.69": "6.1.69"
+    "npm:tldts@^6.1.85": "6.1.85"
   },
   "jsr": {
-    "@mary/array-fns@0.1.2": {
-      "integrity": "7619c1d208b5bd565335a6370f29981b74304fea0703f54975fc3180a01cedb3"
+    "@mary/array-fns@0.1.4": {
+      "integrity": "099462a2383e3721fa217bdb2c7aa1258356f1ad1e8dc0e1711283f605b842fb"
     }
   },
   "npm": {
-    "@atcute/bluesky@1.0.11_@atcute+client@2.0.6": {
-      "integrity": "sha512-j4wLJIzKWh0gmQZ7s5svhEVRThlzqyfstbM0qM/H1Y+ZIQESx5HtVu+390zAWzZoEKZYSyTM9+ctY39OiEGDQw==",
+    "@atcute/bluesky@2.0.0_@atcute+client@3.0.0": {
+      "integrity": "sha512-G54WP8ribfH7dojidp6LJjNISauZr2AN9VxRi3k5XTLnT3S5l59e8l48psxTTv+GzBnY8u2GIHMlehBXt7X69A==",
       "dependencies": [
         "@atcute/client"
       ]
     },
-    "@atcute/client@2.0.6": {
-      "integrity": "sha512-mhdqEicGUx0s5HTFOLpz91rcLS9j/g63de0nmAqv7blhU3j+xBf4le54qr2YIXNfnReZI7EwLYLX/YIBez4LGA=="
+    "@atcute/client@3.0.0": {
+      "integrity": "sha512-6OsDqqkrqob/fMJ++s5vPc2MknQ6yfTzK+TY3MjXK3ZOkF0XseB5+QV1IiBWnEZ4X3aY21x2a3kv3YcvSQKxXQ=="
     },
-    "@badrap/valita@0.4.2": {
-      "integrity": "sha512-Mwmr7k2iK0Yy0POLnAFUgab2mxKYeIsYXHY7sg3jo8XFsFHbG0SBmTcktXD0uW8N4WZePKf8s68QV7QDTGSdHA=="
+    "@badrap/valita@0.4.3": {
+      "integrity": "sha512-C9iZSrVlTb610dxZ2oatK5LwefaHv0Q9eYfVDH3co846x7WinhCfc8jCDTE55yM8WxlmOfX2ckKmsSr7KzZ/gg=="
     },
     "date-fns@4.1.0": {
       "integrity": "sha512-Ukq0owbQXxa/U3EGtsdVBkR1w7KOQ5gIBqdH2hkvknzZPYvBxb/aa6E8L7tmjFtkwZBu3UXBbjIgPo/Ez4xaNg=="
@@ -33,11 +33,11 @@
     "p-map@7.0.3": {
       "integrity": "sha512-VkndIv2fIB99swvQoA65bm+fsmt6UNdGeIB0oxBs+WhAhdh08QA04JXpI7rbB9r08/nkbysKoya9rtDERYOYMA=="
     },
-    "tldts-core@6.1.69": {
-      "integrity": "sha512-nygxy9n2PBUFQUtAXAc122gGo+04/j5qr5TGQFZTHafTKYvmARVXt2cA5rgero2/dnXUfkdPtiJoKmrd3T+wdA=="
+    "tldts-core@6.1.85": {
+      "integrity": "sha512-DTjUVvxckL1fIoPSb3KE7ISNtkWSawZdpfxGxwiIrZoO6EbHVDXXUIlIuWympPaeS+BLGyggozX/HTMsRAdsoA=="
     },
-    "tldts@6.1.69": {
-      "integrity": "sha512-Oh/CqRQ1NXNY7cy9NkTPUauOWiTro0jEYZTioGbOmcQh6EC45oribyIMJp0OJO3677r13tO6SKdWoGZUx2BDFw==",
+    "tldts@6.1.85": {
+      "integrity": "sha512-gBdZ1RjCSevRPFix/hpaUWeak2/RNUZB4/8frF1r5uYMHjFptkiT0JXIebWvgI/0ZHXvxaUDDJshiA0j6GdL3w==",
       "dependencies": [
         "tldts-core"
       ]
@@ -45,13 +45,13 @@
   },
   "workspace": {
     "dependencies": [
-      "jsr:@mary/array-fns@~0.1.2",
-      "npm:@atcute/bluesky@^1.0.11",
-      "npm:@atcute/client@^2.0.6",
-      "npm:@badrap/valita@~0.4.2",
+      "jsr:@mary/array-fns@~0.1.4",
+      "npm:@atcute/bluesky@2",
+      "npm:@atcute/client@3",
+      "npm:@badrap/valita@~0.4.3",
       "npm:date-fns@^4.1.0",
       "npm:p-map@^7.0.3",
-      "npm:tldts@^6.1.69"
+      "npm:tldts@^6.1.85"
     ]
   }
 }
