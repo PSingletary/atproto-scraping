@@ -1,6 +1,6 @@
 # Scraped AT Protocol instances
 
-Last updated: 2025-04-14T00:39:42.361Z[^1]
+Last updated: 2025-04-15T00:40:11.113Z[^1]
 
 Found by enumerating plc.directory and bsky.network, some instances might not be
 part of mainnet.
@@ -9,11 +9,11 @@ Instances that have not been active for more than 14 days gets dropped off from 
 
 ## Personal data servers
 
-**2808** instances active  
-**2621** online  
+**2801** instances active  
+**2614** online  
 **187** offline  
 **80** hosted by Bluesky  
-**2728** hosted by third-parties
+**2721** hosted by third-parties
 
 ### Bluesky-hosted servers
 
@@ -219,7 +219,7 @@ Instances that have not been active for more than 14 days gets dropped off from 
 | ✅ at.clavis.info | No | 0.4.107 |
 | ✅ at.cnose.xyz | No | 0.4.107 |
 | ✅ at.crit.run | No | 0.4.107 |
-| ❌ at.dingdongdata.com | No | 0.4.107 |
+| ✅ at.dingdongdata.com | No | 0.4.107 |
 | ❌ at.donley.io | No | 0.4.107 |
 | ✅ at.drigs.org | No | 0.4.74 |
 | ✅ at.electr.us | No | 0.4.107 |
@@ -264,7 +264,7 @@ Instances that have not been active for more than 14 days gets dropped off from 
 | ✅ atproto.buntuk.io | No | 0.4.107 |
 | ✅ atproto.digitalmethods.net | No | 0.4.107 |
 | ✅ atproto.hotwaru.com | Yes | alpha |
-| ✅ atproto.is-rocket.science | No | 0.4.107 |
+| ❌ atproto.is-rocket.science | No | 0.4.107 |
 | ✅ atproto.kevinshelley.net | No | 0.4.107 |
 | ✅ atproto.kyriog.fr | No | 0.4.107 |
 | ✅ atproto.sathani.com | No | 0.4.107 |
@@ -319,7 +319,7 @@ Instances that have not been active for more than 14 days gets dropped off from 
 | ✅ bjelks.com | No | 0.4.107 |
 | ❌ blackchan.net | No | ??? |
 | ✅ blacksky.app | No | 0.3.0-beta.3 |
-| ❌ blacksky.nihilist.party | No | 0.4.107 |
+| ✅ blacksky.nihilist.party | No | 0.4.107 |
 | ✅ blau.actinia.xyz | No | 0.4.107 |
 | ✅ blauwelucht.online | No | 0.4.107 |
 | ✅ blipbleep.xyz | No | 0.4.107 |
@@ -352,7 +352,7 @@ Instances that have not been active for more than 14 days gets dropped off from 
 | ✅ blue.mocodbo.com | No | 0.4.107 |
 | ✅ blue.moncur.me.uk | No | 0.4.107 |
 | ✅ blue.tsnx.net | No | 0.4.107 |
-| ✅ blue.xerfec.fr | No | 0.4.107 |
+| ❌ blue.xerfec.fr | No | 0.4.107 |
 | ✅ blueball.fraudulent.link | No | 0.4.107 |
 | ✅ bluemagma.io | No | 0.4.107 |
 | ✅ blueshifted.dev | No | 0.4.107 |
@@ -360,11 +360,11 @@ Instances that have not been active for more than 14 days gets dropped off from 
 | ✅ bluesky-community.xsns.jp | No | 0.4.107 |
 | ✅ bluesky-pds.mcsvr.net | No | 0.4.107 |
 | ✅ bluesky-pds.vhpadula.com | No | 0.4.107 |
-| ✅ bluesky-u15377.vm.elestio.app | No | 0.4.74 |
+| ❌ bluesky-u15377.vm.elestio.app | No | 0.4.74 |
 | ✅ bluesky.0x10.lv | No | 0.4.74 |
 | ❌ bluesky.0xbeef.io | No | 0.4.107 |
 | ✅ bluesky.21crypto.ch | No | 0.4.67 |
-| ✅ bluesky.3aussies.net | No | 0.4.107 |
+| ❌ bluesky.3aussies.net | No | 0.4.107 |
 | ✅ bluesky.5i.fi | No | 0.4.107 |
 | ✅ bluesky.adriansmares.ro | No | 0.4.107 |
 | ✅ bluesky.advancemed.com.au | No | 0.4.107 |
@@ -425,7 +425,7 @@ Instances that have not been active for more than 14 days gets dropped off from 
 | ✅ bluesky.digilikes.com | No | 0.4.98 |
 | ✅ bluesky.drg.lol | No | 0.4.107 |
 | ✅ bluesky.druid.fi | No | 0.4.107 |
-| ✅ bluesky.duck.moe | No | 0.4.67 |
+| ❌ bluesky.duck.moe | No | 0.4.67 |
 | ✅ bluesky.dynfi.com | No | 0.4.107 |
 | ✅ bluesky.ebtegtman.com | No | 0.4.107 |
 | ✅ bluesky.ekgld.com | No | 0.4.107 |
@@ -493,7 +493,7 @@ Instances that have not been active for more than 14 days gets dropped off from 
 | ✅ bluesky.memohat.xyz | No | 0.4.107 |
 | ✅ bluesky.mena.house | No | 0.4.107 |
 | ✅ bluesky.mertcendik.dev | No | 0.4.107 |
-| ✅ bluesky.metalbanana.net | No | 0.4.107 |
+| ❌ bluesky.metalbanana.net | No | 0.4.107 |
 | ✅ bluesky.mishki.digital | No | 0.4.67 |
 | ✅ bluesky.mousses.xyz | No | 0.4.107 |
 | ✅ bluesky.myhomecloud.it | No | 0.4.107 |
@@ -539,7 +539,6 @@ Instances that have not been active for more than 14 days gets dropped off from 
 | ✅ bluesky.scfreiburg.com | No | 0.4.107 |
 | ✅ bluesky.scorpa.de | No | 0.4.107 |
 | ✅ bluesky.sebbem.se | No | 0.4.107 |
-| ❌ bluesky.senko-san.com | No | 0.4.67 |
 | ✅ bluesky.sexhack.me | No | 0.4.107 |
 | ❌ bluesky.shabashe.org | No | 0.4.107 |
 | ❌ bluesky.shayandoust.me | No | 0.4.67 |
@@ -634,7 +633,7 @@ Instances that have not been active for more than 14 days gets dropped off from 
 | ✅ bs.iz5wga.radio | No | 0.4.82 |
 | ❌ bs.jpu.jp | No | 0.4.107 |
 | ✅ bs.jtophermedia.com | No | 0.4.74 |
-| ✅ bs.kelbie.scot | No | 0.4.107 |
+| ❌ bs.kelbie.scot | No | 0.4.107 |
 | ✅ bs.lastcallphotography.com | No | 0.4.98 |
 | ✅ bs.lehtiin.eu | No | 0.4.107 |
 | ✅ bs.longendyke.net | No | 0.4.107 |
@@ -651,13 +650,12 @@ Instances that have not been active for more than 14 days gets dropped off from 
 | ✅ bs.podonaut.com | No | 0.4.74 |
 | ✅ bs.possumpat.io | No | 0.4.107 |
 | ✅ bs.rainbowblue.cc | No | 0.4.107 |
-| ❌ bs.rnmeow.com | No | 0.4.107 |
 | ❌ bs.sefayildiz.com.tr | No | 0.4.107 |
 | ✅ bs.seyedjafari.com | No | 0.4.107 |
 | ✅ bs.starpalace.us | No | 0.4.107 |
 | ✅ bs.stevenryoung.com | No | 0.4.107 |
 | ✅ bs.syruptrap.net | No | 0.4.107 |
-| ❌ bs.version30.net | No | 0.4.107 |
+| ✅ bs.version30.net | No | 0.4.107 |
 | ✅ bs.zrq.io | No | 0.4.107 |
 | ✅ bs1.stoiccebalrai.com | No | 0.4.107 |
 | ✅ bsk.ryuka-lucas.net | No | 0.4.67 |
@@ -668,8 +666,7 @@ Instances that have not been active for more than 14 days gets dropped off from 
 | ✅ bsky-pds.lamberti.io | No | 0.4.107 |
 | ✅ bsky-pds.nofollow.me | No | 0.4.107 |
 | ✅ bsky-pds.vysur.com | No | 0.4.107 |
-| ❌ bsky.0k.io | No | 0.4.98 |
-| ❌ bsky.30062022.xyz | No | 0.4.107 |
+| ✅ bsky.0k.io | No | 0.4.98 |
 | ✅ bsky.39music.dance | No | 0.4.67 |
 | ✅ bsky.3v1lstuff.de | No | 0.4.107 |
 | ✅ bsky.911cyber.app | No | 0.4.107 |
@@ -696,7 +693,7 @@ Instances that have not been active for more than 14 days gets dropped off from 
 | ✅ bsky.anthonychavez.dev | No | 0.4.107 |
 | ✅ bsky.antti.codes | No | 0.4.107 |
 | ✅ bsky.apps.legitindustries.org | No | 0.4.67 |
-| ✅ bsky.apt.sdc.sx | No | 0.4.107 |
+| ❌ bsky.apt.sdc.sx | No | 0.4.107 |
 | ✅ bsky.aradine.com | No | 0.4.107 |
 | ✅ bsky.archbar.me | No | 0.4.67 |
 | ✅ bsky.ard0.gg | No | 0.4.98 |
@@ -745,7 +742,7 @@ Instances that have not been active for more than 14 days gets dropped off from 
 | ✅ bsky.bumbum.lol | No | 0.4.107 |
 | ✅ bsky.bytecafe.de | No | 0.4.107 |
 | ✅ bsky.byteme.social | No | 0.4.107 |
-| ✅ bsky.bytestall.info | No | 0.4.107 |
+| ❌ bsky.bytestall.info | No | 0.4.107 |
 | ✅ bsky.c14.li | No | 0.4.107 |
 | ✅ bsky.c2dv.com | No | 0.4.74 |
 | ✅ bsky.caffeinated.computer | No | 0.4.107 |
@@ -761,7 +758,7 @@ Instances that have not been active for more than 14 days gets dropped off from 
 | ✅ bsky.chaotic.cx | No | 0.4.107 |
 | ✅ bsky.chasalin.nl | No | 0.4.67 |
 | ✅ bsky.chatsafemedia.one | No | 0.4.107 |
-| ✅ bsky.chazx.cc | No | 0.4.74 |
+| ❌ bsky.chazx.cc | No | 0.4.74 |
 | ✅ bsky.chooch.us | No | 0.4.107 |
 | ✅ bsky.chrispritchard.co.uk | No | 0.4.74 |
 | ✅ bsky.christensen.wtf | No | 0.4.107 |
@@ -812,13 +809,12 @@ Instances that have not been active for more than 14 days gets dropped off from 
 | ✅ bsky.eleith.com | No | 0.4.74 |
 | ✅ bsky.ellefsen.ninja | No | 0.4.107 |
 | ✅ bsky.eloquentpeasant.net | No | 0.4.107 |
-| ✅ bsky.emy.lu | No | 0.4.67 |
+| ❌ bsky.emy.lu | No | 0.4.67 |
 | ✅ bsky.encode.co.nz | No | 0.4.107 |
 | ❌ bsky.equinoxstudios.net | No | 0.4.67 |
 | ✅ bsky.eqver.se | No | 0.4.107 |
 | ✅ bsky.eranstockdale.uk | No | 0.4.66 |
 | ❌ bsky.eriks.life | No | ??? |
-| ❌ bsky.estrogen.plus | No | 0.4.107 |
 | ✅ bsky.eternalwings.de | No | 0.4.107 |
 | ✅ bsky.ethoscmg.com | No | 0.4.107 |
 | ✅ bsky.eu.com | No | 0.4.107 |
@@ -836,14 +832,14 @@ Instances that have not been active for more than 14 days gets dropped off from 
 | ✅ bsky.filippo.sh | No | 0.4.67 |
 | ✅ bsky.fjellstuveien.no | No | 0.4.107 |
 | ✅ bsky.foggymtndrifter.com | No | 0.4.107 |
-| ✅ bsky.fredkin.com | No | 0.4.74 |
+| ✅ bsky.fredkin.com | No | 0.4.107 |
 | ✅ bsky.frunkaf.com | No | 0.4.107 |
 | ✅ bsky.funami.tech | No | 0.4.74 |
 | ❌ bsky.g33k.dev | No | 0.4.107 |
 | ✅ bsky.gagniard.org | No | 0.4.107 |
 | ✅ bsky.gearlicious.one | No | 0.4.107 |
 | ✅ bsky.gendalph.net | No | 0.4.107 |
-| ❌ bsky.gestur.org | No | 0.4.107 |
+| ✅ bsky.gestur.org | No | 0.4.107 |
 | ✅ bsky.girlonthemoon.xyz | No | 0.4.107 |
 | ✅ bsky.giurgiu.io | No | 0.4.59 |
 | ✅ bsky.gizm0.dev | No | 0.4.74 |
@@ -866,7 +862,7 @@ Instances that have not been active for more than 14 days gets dropped off from 
 | ✅ bsky.hrry.me | No | 0.4.74 |
 | ✅ bsky.hvn.network | No | 0.4.107 |
 | ✅ bsky.hyprlab.co | No | 0.4.107 |
-| ✅ bsky.hysh.jp | No | 0.4.107 |
+| ❌ bsky.hysh.jp | No | 0.4.107 |
 | ✅ bsky.i.taylorh.dev | No | 0.4.67 |
 | ✅ bsky.ici.de.com | No | 0.4.107 |
 | ✅ bsky.ignat.co | No | 0.4.107 |
@@ -917,7 +913,7 @@ Instances that have not been active for more than 14 days gets dropped off from 
 | ✅ bsky.localecho.net | No | 0.4.107 |
 | ✅ bsky.localghost.camp | No | 0.4.107 |
 | ✅ bsky.louis.cloud | No | 0.4.107 |
-| ✅ bsky.lucas.love | No | 0.4.98 |
+| ✅ bsky.lucas.love | No | 0.4.107 |
 | ✅ bsky.lucaslower.com | No | 0.4.107 |
 | ✅ bsky.lumina.software | No | 0.4.107 |
 | ✅ bsky.lwehmschulte.de | No | 0.4.107 |
@@ -986,12 +982,12 @@ Instances that have not been active for more than 14 days gets dropped off from 
 | ✅ bsky.ory.kr | No | 0.4.107 |
 | ✅ bsky.outskirts.dk | No | 0.4.107 |
 | ✅ bsky.owenjones.net | No | 0.4.107 |
-| ❌ bsky.owlsnest.nl | No | 0.4.107 |
+| ✅ bsky.owlsnest.nl | No | 0.4.107 |
 | ✅ bsky.paradoxx.dev | No | 0.4.107 |
 | ✅ bsky.pb.io | No | 0.4.74 |
 | ✅ bsky.pds.sussch.space | No | 0.4.107 |
 | ✅ bsky.peeb.ly | No | 0.4.107 |
-| ❌ bsky.phitchaw.at | No | 0.4.107 |
+| ✅ bsky.phitchaw.at | No | 0.4.107 |
 | ✅ bsky.pink | No | 0.4.107 |
 | ✅ bsky.pipiska.org | No | 0.4.107 |
 | ✅ bsky.pitterpatter.io | No | 0.4.107 |
@@ -999,7 +995,7 @@ Instances that have not been active for more than 14 days gets dropped off from 
 | ✅ bsky.pmj.rocks | No | 0.4.107 |
 | ✅ bsky.poag.one | No | 0.4.107 |
 | ✅ bsky.pod4.org | No | 0.4.107 |
-| ❌ bsky.polosk.uno | No | 0.4.74 |
+| ✅ bsky.polosk.uno | No | 0.4.74 |
 | ❌ bsky.possumden.net | No | 0.4.107 |
 | ✅ bsky.prateeksurana.me | No | 0.4.107 |
 | ✅ bsky.printingmini.com | No | 0.4.107 |
@@ -1074,12 +1070,12 @@ Instances that have not been active for more than 14 days gets dropped off from 
 | ✅ bsky.staup.social | No | 0.4.107 |
 | ✅ bsky.substandard.info | No | 0.4.74 |
 | ✅ bsky.sven.science | No | 0.4.107 |
-| ❌ bsky.switzerny.org | No | 0.4.107 |
+| ✅ bsky.switzerny.org | No | 0.4.107 |
 | ✅ bsky.t4ccer.com | No | 0.4.67 |
 | ✅ bsky.taila5061.ts.net | No | 0.4.107 |
 | ✅ bsky.talkunafraid.co.uk | No | 0.4.107 |
 | ✅ bsky.tangerine-systems.com | No | 0.4.107 |
-| ❌ bsky.tangle.se | No | 0.4.107 |
+| ✅ bsky.tangle.se | No | 0.4.107 |
 | ✅ bsky.taroth.kr | No | 0.4.74 |
 | ✅ bsky.tea-cats.co.uk | No | 0.4.107 |
 | ✅ bsky.tearow.com | No | 0.4.107 |
@@ -1164,7 +1160,7 @@ Instances that have not been active for more than 14 days gets dropped off from 
 | ✅ calebstein.net | No | 0.4.74 |
 | ✅ calfireinfo.com | No | 0.4.107 |
 | ✅ caliko.fr | No | 0.4.74 |
-| ❌ camelcase.sh | No | 0.4.107 |
+| ✅ camelcase.sh | No | 0.4.107 |
 | ✅ camora.dev | No | 0.4.107 |
 | ✅ campground.reapimus.dev | No | 0.1.0 |
 | ✅ campsite.social | No | 0.4.107 |
@@ -1205,9 +1201,10 @@ Instances that have not been active for more than 14 days gets dropped off from 
 | ✅ claros.ar | No | 0.4.107 |
 | ✅ clouve.net | Yes | 0.4.67 |
 | ✅ clusterfsck.com | No | 0.4.67 |
+| ✅ cocas-js.xsns.jp | No | 0.4.107 |
 | ❌ cocoon.futur.blue | No | cocoon dev-1554b9452 |
-| ✅ cocoon.hailey.at | No | cocoon dev-8a29af4b1 |
-| ✅ cocoon.juli.ee | No | cocoon dev-2329cffb7 |
+| ✅ cocoon.hailey.at | No | cocoon 0.0.4 |
+| ✅ cocoon.juli.ee | No | cocoon dev-a4c3adb24 |
 | ❌ cocoon.test.juli.ee | No | ??? |
 | ✅ codeandstrings.com | No | 0.4.107 |
 | ✅ codebased.xyz | No | 0.4.107 |
@@ -1217,7 +1214,6 @@ Instances that have not been active for more than 14 days gets dropped off from 
 | ✅ colt.me | No | 0.4.107 |
 | ❌ coltonenglish.me | No | ??? |
 | ✅ com.fortiscustodia.co | No | 0.4.107 |
-| ❌ comind.stream | No | 0.4.107 |
 | ❌ community.animewonderfest.com | No | ??? |
 | ✅ compurise.net | No | 0.4.74 |
 | ✅ computerwit.ch | No | 0.4.107 |
@@ -1237,7 +1233,7 @@ Instances that have not been active for more than 14 days gets dropped off from 
 | ❌ cozykestrel.com | No | 0.4.107 |
 | ✅ creast.io | No | 0.4.107 |
 | ✅ creaton.social | No | 0.5.3 |
-| ✅ cred.at | No | 0.4.107 |
+| ❌ cred.at | No | 0.4.107 |
 | ✅ crime.kiwi | No | 0.4.107 |
 | ✅ cristini.social | No | 0.4.107 |
 | ✅ cronoci.de | No | 0.4.107 |
@@ -1321,7 +1317,7 @@ Instances that have not been active for more than 14 days gets dropped off from 
 | ✅ elbarrio.social | No | 0.4.107 |
 | ✅ elcentro.social | No | 0.4.107 |
 | ✅ electricbutter.social | No | 0.4.107 |
-| ✅ eliza.eliza.nz | No | 0.4.107 |
+| ❌ eliza.eliza.nz | No | 0.4.107 |
 | ✅ elly.meme | No | 0.4.107 |
 | ✅ emma.pubmed.science | No | 0.4.107 |
 | ✅ emphisia.nl | No | 0.4.74 |
@@ -1370,7 +1366,7 @@ Instances that have not been active for more than 14 days gets dropped off from 
 | ✅ foru.run | No | 0.4.107 |
 | ✅ fotd-games.com | No | 0.4.107 |
 | ✅ foxbytes.ru | No | 0.4.107 |
-| ✅ foxhole.lgbt | No | 0.4.98 |
+| ✅ foxhole.lgbt | No | 0.4.107 |
 | ✅ fracktron.com | No | 0.4.107 |
 | ✅ framily.email | No | 0.4.107 |
 | ✅ freak.quest | No | 0.4.107 |
@@ -1395,7 +1391,7 @@ Instances that have not been active for more than 14 days gets dropped off from 
 | ✅ gabagoolmusic.com | No | 0.4.107 |
 | ✅ gabriex.xyz | No | 0.4.107 |
 | ✅ gary.moe | No | 0.4.107 |
-| ❌ gaylily.org | No | 0.4.74 |
+| ✅ gaylily.org | No | 0.4.74 |
 | ✅ gaze.systems | No | 0.4.107 |
 | ✅ gbabeau.fr | No | 0.4.107 |
 | ✅ gbears.social | No | 0.4.107 |
@@ -1408,7 +1404,7 @@ Instances that have not been active for more than 14 days gets dropped off from 
 | ✅ giosky.social | No | 0.4.107 |
 | ✅ girl.technology | No | 0.4.97 |
 | ❌ glaceon.me | No | 0.4.107 |
-| ❌ glstudios.org | No | 0.4.74 |
+| ✅ glstudios.org | No | 0.4.74 |
 | ✅ gluck.dev | No | 0.4.74 |
 | ✅ gmandialectic.dev | No | 0.4.107 |
 | ✅ goblin.club | No | 0.4.107 |
@@ -1432,7 +1428,6 @@ Instances that have not been active for more than 14 days gets dropped off from 
 | ✅ groules.fr | No | 0.4.107 |
 | ✅ grubb.scot | No | 0.4.107 |
 | ✅ gruen.lol | No | 0.4.74 |
-| ❌ guid.foo | No | ??? |
 | ✅ guitarman-bluesky-pds.elfhosted.com | No | 0.4.107 |
 | ✅ habanero.f5.si | No | 0.4.107 |
 | ❌ habitat-dev.tail07d32.ts.net | No | 0.4.89 |
@@ -1473,7 +1468,7 @@ Instances that have not been active for more than 14 days gets dropped off from 
 | ✅ honey-lab.co | No | 0.4.107 |
 | ✅ hooray.social | No | 0.4.107 |
 | ✅ hpsmc.net | No | 0.4.107 |
-| ✅ human.social | Yes | 0.4.107 |
+| ❌ human.social | Yes | 0.4.107 |
 | ❌ hurm.io | No | 0.4.107 |
 | ✅ huxian-lab.net | No | 0.4.107 |
 | ✅ i.noxylva.org | No | 0.4.107 |
@@ -1494,7 +1489,6 @@ Instances that have not been active for more than 14 days gets dropped off from 
 | ✅ infoveinx.lol | No | 0.4.98 |
 | ✅ inodes.org | No | 0.4.107 |
 | ✅ insaneslashcrazy.com | No | 0.4.107 |
-| ❌ int.moe | No | ??? |
 | ✅ int.social | No | 0.4.107 |
 | ✅ internect.ing | No | 0.4.107 |
 | ✅ inyourair.space | No | 0.4.67 |
@@ -1548,7 +1542,7 @@ Instances that have not been active for more than 14 days gets dropped off from 
 | ✅ joris.sh | No | 0.4.74 |
 | ✅ joshpds.duckdns.org | No | 0.4.107 |
 | ❌ joshpds2.duckdns.org | No | ??? |
-| ✅ josiewells.xyz | No | 0.4.107 |
+| ❌ josiewells.xyz | No | 0.4.107 |
 | ✅ jpeg.city | No | 0.4.107 |
 | ✅ jplt.com | No | 0.4.107 |
 | ✅ jrash.net | No | 0.4.107 |
@@ -1568,9 +1562,8 @@ Instances that have not been active for more than 14 days gets dropped off from 
 | ✅ kill9.net | No | 0.4.74 |
 | ✅ kingdom.1randomprince.life | No | 0.4.107 |
 | ✅ kinzsky.org | No | 0.4.107 |
-| ❌ kiraly.me | No | 0.4.107 |
 | ✅ kitch.social | No | 0.4.107 |
-| ✅ klein.ruhr | No | 0.4.107 |
+| ❌ klein.ruhr | No | 0.4.107 |
 | ✅ klenz.org | No | 0.4.74 |
 | ✅ kmbx.live | No | 0.4.107 |
 | ✅ knotbin.xyz | No | 0.4.107 |
@@ -1673,7 +1666,7 @@ Instances that have not been active for more than 14 days gets dropped off from 
 | ✅ megacasa.xyz | No | 0.4.107 |
 | ✅ meggie.bsky.dodo.haus | No | 0.4.98 |
 | ✅ meilo.world | No | 0.4.74 |
-| ❌ melendez.cloud | No | 0.4.107 |
+| ✅ melendez.cloud | No | 0.4.107 |
 | ✅ melkat.blue | No | 0.4.107 |
 | ✅ melkor.priv.at.eu.org | No | 0.4.107 |
 | ✅ meows.gay | No | 0.4.74 |
@@ -1723,6 +1716,7 @@ Instances that have not been active for more than 14 days gets dropped off from 
 | ✅ my-bluesky-pds-6.eastus.cloudapp.azure.com | No | 0.4.107 |
 | ✅ my.personal.pds.marionberry.net | No | 0.4.98 |
 | ✅ mybluesky.link | Yes | 0.4.74 |
+| ❌ mybluesky.org.uk | No | ??? |
 | ✅ mydecnet.org | No | 0.4.107 |
 | ✅ mypds.cc | No | 0.4.107 |
 | ✅ myrestone.land | No | 0.4.98 |
@@ -1750,7 +1744,7 @@ Instances that have not been active for more than 14 days gets dropped off from 
 | ✅ nextia.space | No | 0.4.107 |
 | ✅ nickelmattera.gay | No | 0.4.67 |
 | ✅ nied.re | No | 0.4.67 |
-| ✅ nihilist.cloud | No | 0.4.107 |
+| ❌ nihilist.cloud | No | 0.4.107 |
 | ✅ nimpsky.duckdns.org | No | 0.4.107 |
 | ❌ nisu.codes | No | 0.4.107 |
 | ✅ niximac.co | No | 0.4.107 |
@@ -1775,7 +1769,7 @@ Instances that have not been active for more than 14 days gets dropped off from 
 | ✅ obsolete.social | No | 0.4.107 |
 | ❌ odroid-hub.ddns.net | No | ??? |
 | ✅ odyniec.org | No | 0.4.107 |
-| ✅ offended.lol | No | 0.4.107 |
+| ❌ offended.lol | No | 0.4.107 |
 | ✅ official.kuroeks.it | No | 0.4.107 |
 | ✅ offsky.de | No | 0.4.107 |
 | ✅ offy.space | No | 0.4.107 |
@@ -1783,7 +1777,7 @@ Instances that have not been active for more than 14 days gets dropped off from 
 | ✅ oikeio.com | No | 0.4.107 |
 | ✅ okashi.social | Yes | 0.4.107 |
 | ✅ olympusdev.xyz | No | 0.4.107 |
-| ❌ omoch.ing | No | 0.4.107 |
+| ✅ omoch.ing | No | 0.4.107 |
 | ❌ on.thefirearms.network | No | ??? |
 | ✅ onlydevs.club | No | 0.4.98 |
 | ✅ onsocial.uk | No | 0.4.107 |
@@ -1809,13 +1803,13 @@ Instances that have not been active for more than 14 days gets dropped off from 
 | ✅ pantonius.dev | No | 0.4.107 |
 | ✅ papillon.coissac.eu | No | 0.4.67 |
 | ✅ parkerr.app | No | 0.4.67 |
-| ✅ partall.no | No | 0.4.122 |
+| ✅ partall.no | No | 0.4.123 |
 | ✅ paul.sx | No | 0.4.107 |
 | ✅ pauljr.rocks | No | 0.4.107 |
 | ✅ paw.purrso.me | No | 0.4.107 |
 | ✅ pbsky.xyz | No | 0.4.107 |
 | ✅ pdcm.love | No | 0.4.107 |
-| ✅ pds-origin.aendra.dev | No | 0.4.107 |
+| ❌ pds-origin.aendra.dev | No | 0.4.107 |
 | ✅ pds-test.icocofun.net | No | 0.4.107 |
 | ✅ pds-testing.bun.how | No | 0.4.71 |
 | ✅ pds.0x01.host | No | 0.4.98 |
@@ -1876,7 +1870,6 @@ Instances that have not been active for more than 14 days gets dropped off from 
 | ✅ pds.billy.wales | No | 0.4.107 |
 | ✅ pds.binaryhurricane.com | No | 0.4.107 |
 | ❌ pds.biograf.ai | No | ??? |
-| ❌ pds.bitnexus.com | No | 0.4.74 |
 | ✅ pds.bitter.beer | No | 0.4.107 |
 | ✅ pds.blowdart.blue | No | 0.4.107 |
 | ❌ pds.blsky.eu | No | 0.4.107 |
@@ -1887,7 +1880,7 @@ Instances that have not been active for more than 14 days gets dropped off from 
 | ✅ pds.bluesky.sindt.org | No | 0.4.74 |
 | ✅ pds.bluesky.thispilot.ru | No | 0.4.121 |
 | ✅ pds.bottomupon.top | No | 0.4.107 |
-| ✅ pds.boxleft.com | No | 0.4.107 |
+| ❌ pds.boxleft.com | No | 0.4.107 |
 | ✅ pds.bradwenner.digital | No | 0.4.107 |
 | ✅ pds.brennonia.com | No | 0.4.107 |
 | ✅ pds.brk.st | No | 0.4.107 |
@@ -1905,7 +1898,7 @@ Instances that have not been active for more than 14 days gets dropped off from 
 | ✅ pds.btrs.co | No | 0.4.107 |
 | ✅ pds.bulgarsociety.org | No | 0.4.107 |
 | ❌ pds.buller.cc | No | 0.4.107 |
-| ❌ pds.bullfrogit.net | No | 0.4.107 |
+| ✅ pds.bullfrogit.net | No | 0.4.107 |
 | ✅ pds.bun.how | No | 0.4.107 |
 | ✅ pds.bunn.moe | No | 0.4.107 |
 | ✅ pds.butwho.org | No | 0.4.107 |
@@ -1963,7 +1956,7 @@ Instances that have not been active for more than 14 days gets dropped off from 
 | ✅ pds.dkbhadeshiya.me | No | 0.4.107 |
 | ✅ pds.dlun.ch | No | 0.4.98 |
 | ✅ pds.doctorjeal.com | No | 0.4.107 |
-| ❌ pds.draboros.net | No | N/A |
+| ✅ pds.draboros.net | No | N/A |
 | ✅ pds.dragonstonekeep.net | No | 0.4.107 |
 | ✅ pds.drollette.com | No | 0.4.107 |
 | ❌ pds.duman.dev | No | 0.4.107 |
@@ -1982,6 +1975,7 @@ Instances that have not been active for more than 14 days gets dropped off from 
 | ✅ pds.erechorse.com | No | 0.4.107 |
 | ✅ pds.erikcr.com | No | 0.4.107 |
 | ❌ pds.essexgoth.co.uk | No | 0.4.98 |
+| ✅ pds.evenyc.com | No | 0.4.107 |
 | ✅ pds.everynothing.net | No | 0.4.74 |
 | ✅ pds.evilcyberhacker.net | No | 0.4.67 |
 | ✅ pds.exa.net.uk | No | 0.4.107 |
@@ -2018,7 +2012,7 @@ Instances that have not been active for more than 14 days gets dropped off from 
 | ✅ pds.gwaves.tv | No | 0.4.107 |
 | ✅ pds.gwei.cz | No | 0.4.107 |
 | ✅ pds.gza.jp | No | 0.4.107 |
-| ✅ pds.haileyok.com | No | 0.4.107 |
+| ✅ pds.haileyok.com | No | 0.4.123 |
 | ✅ pds.halcyoncollective.dev | No | hi |
 | ✅ pds.hapa.ai | No | 0.4.107 |
 | ✅ pds.hayden.moe | No | 0.4.103 |
@@ -2079,8 +2073,8 @@ Instances that have not been active for more than 14 days gets dropped off from 
 | ✅ pds.jp.world | No | 0.4.107 |
 | ✅ pds.juanlu.space | No | 0.4.107 |
 | ✅ pds.juliatto.dev | No | 0.4.107 |
-| ✅ pds.jumbletwig.com | No | 0.4.107 |
-| ✅ pds.justdavi.dev | No | ??? |
+| ❌ pds.jumbletwig.com | No | 0.4.107 |
+| ✅ pds.justdavi.dev | No | 0.4.107 |
 | ✅ pds.justingarrison.com | No | 0.4.107 |
 | ✅ pds.justinharbour.com | No | 0.4.107 |
 | ✅ pds.justinm.one | No | bluepds |
@@ -2092,6 +2086,7 @@ Instances that have not been active for more than 14 days gets dropped off from 
 | ✅ pds.kiarc.win | No | 0.4.98 |
 | ✅ pds.kingyosun.com | No | 0.4.67 |
 | ✅ pds.kitgxrl.gay | No | 0.4.74 |
+| ✅ pds.koggesvr.net | No | 0.4.107 |
 | ✅ pds.kohweijie.com | No | 0.4.107 |
 | ✅ pds.koontz.dev | No | 0.4.107 |
 | ✅ pds.krasovs.ky | No | 0.4.107 |
@@ -2147,7 +2142,7 @@ Instances that have not been active for more than 14 days gets dropped off from 
 | ✅ pds.mechanus.org | No | 0.4.107 |
 | ✅ pds.megantoots.com | No | 0.4.107 |
 | ✅ pds.merklehost.xyz | No | 0.4.107 |
-| ✅ pds.mice.tel | No | 0.4.117 |
+| ✅ pds.mice.tel | No | 0.4.123 |
 | ✅ pds.midka.dev | No | 0.4.74 |
 | ✅ pds.mikemerritt.xyz | No | 0.4.107 |
 | ✅ pds.mindfulprotons.com | No | 0.4.107 |
@@ -2192,7 +2187,6 @@ Instances that have not been active for more than 14 days gets dropped off from 
 | ✅ pds.over.rest | No | 0.4.74 |
 | ✅ pds.passoja.fi | No | 0.4.74 |
 | ✅ pds.penney-family.net | No | 0.4.107 |
-| ❌ pds.peregrid.com | No | 0.4.107 |
 | ✅ pds.perfectfall.com | No | 0.4.107 |
 | ✅ pds.periwinkle.sh | No | 0.4.67 |
 | ✅ pds.personinyourph.one | No | 0.4.107 |
@@ -2216,7 +2210,7 @@ Instances that have not been active for more than 14 days gets dropped off from 
 | ✅ pds.rehborn.dev | No | 0.4.107 |
 | ✅ pds.reinvent-trivia.com | No | 0.4.107 |
 | ✅ pds.rekmarks.com | No | 0.4.107 |
-| ❌ pds.restall.me | No | 0.4.98 |
+| ✅ pds.restall.me | No | 0.4.107 |
 | ✅ pds.rgst.io | No | 0.4.122 |
 | ✅ pds.richie.fr | No | 0.4.67 |
 | ✅ pds.ripperoni.com | No | 0.4.74 |
@@ -2301,7 +2295,7 @@ Instances that have not been active for more than 14 days gets dropped off from 
 | ✅ pds.tosiiu.com | No | 0.4.107 |
 | ✅ pds.triarcio.sh | No | 0.4.107 |
 | ✅ pds.trickylabyrinth.xyz | No | 0.4.107 |
-| ❌ pds.tricyclepickle.com | No | 0.4.107 |
+| ✅ pds.tricyclepickle.com | No | 0.4.107 |
 | ❌ pds.trump.com | No | ??? |
 | ✅ pds.turta.us | No | 0.4.107 |
 | ❌ pds.tverghis.space | No | 0.4.107 |
@@ -2373,7 +2367,7 @@ Instances that have not been active for more than 14 days gets dropped off from 
 | ✅ plony.kz | No | 0.4.107 |
 | ✅ ploo.boo | No | 0.4.107 |
 | ✅ plutus.tylerwhitney.com | No | 0.4.107 |
-| ✅ pmallen.xyz | No | 0.4.107 |
+| ❌ pmallen.xyz | No | 0.4.107 |
 | ✅ pod.exppad.com | No | 0.4.107 |
 | ✅ poehls.at | No | 0.4.107 |
 | ✅ polarfox.app | No | 0.4.107 |
@@ -2422,7 +2416,7 @@ Instances that have not been active for more than 14 days gets dropped off from 
 | ✅ raphmedia.raphhosting.com | No | 0.4.107 |
 | ✅ rasatavohary.fr | No | 0.4.107 |
 | ✅ rat.mom | No | 0.4.107 |
-| ❌ ravimo.online | No | 0.4.107 |
+| ✅ ravimo.online | No | 0.4.107 |
 | ✅ rayi512x.com | No | 0.4.107 |
 | ✅ reallyreally.live | No | 0.4.107 |
 | ✅ reckoneer.dev | No | 0.4.107 |
@@ -2441,7 +2435,7 @@ Instances that have not been active for more than 14 days gets dropped off from 
 | ✅ robertosau.re | No | 0.4.107 |
 | ✅ robin.amsterdam | No | 0.4.107 |
 | ✅ robmonline.net | No | 0.4.107 |
-| ✅ robotskull.com | No | 0.4.82 |
+| ❌ robotskull.com | No | 0.4.82 |
 | ❌ rocketbox.ing | No | 0.4.107 |
 | ✅ rocketman.studio | No | 0.4.107 |
 | ✅ rocktoast.social | No | 0.4.107 |
@@ -2460,7 +2454,6 @@ Instances that have not been active for more than 14 days gets dropped off from 
 | ✅ rsociety.net | No | 0.4.107 |
 | ✅ rtko.eu | No | 0.4.107 |
 | ✅ ruimoreira.uk | No | 0.4.107 |
-| ❌ s2th.me | No | 0.4.74 |
 | ✅ saclgbtq.com | No | 0.4.107 |
 | ✅ salty.house | No | 0.4.107 |
 | ✅ sameed.net | No | 0.4.107 |
@@ -2503,7 +2496,7 @@ Instances that have not been active for more than 14 days gets dropped off from 
 | ✅ si.lly.social | No | 0.4.107 |
 | ✅ sidaravicius.com | No | 0.4.67 |
 | ✅ sif.io | No | 0.4.107 |
-| ✅ signalf.uk | No | 0.4.107 |
+| ❌ signalf.uk | No | 0.4.107 |
 | ✅ silfversward.se | No | 0.4.74 |
 | ✅ siliconaurora.com | No | 0.4.107 |
 | ✅ silverhand.cc | No | 0.4.107 |
@@ -2560,14 +2553,14 @@ Instances that have not been active for more than 14 days gets dropped off from 
 | ✅ social-list.com | No | 0.4.107 |
 | ✅ social.015.sh | No | 0.4.107 |
 | ✅ social.adkins.coffee | No | 0.4.98 |
-| ✅ social.animewonderfest.com | No | 0.4.107 |
+| ❌ social.animewonderfest.com | No | 0.4.107 |
 | ✅ social.behnam.cn | Yes | 0.4.107 |
 | ✅ social.benedetta.com.br | No | 0.4.107 |
 | ✅ social.brentwashburn.com | No | 0.4.107 |
 | ✅ social.chandlervanscoy.com | No | 0.4.107 |
 | ✅ social.computercodeblue.com | No | 0.4.107 |
 | ✅ social.deathpanel.space | No | 0.4.107 |
-| ✅ social.dnix.de | No | 0.4.107 |
+| ❌ social.dnix.de | No | 0.4.107 |
 | ✅ social.egair.eu | No | 0.4.107 |
 | ✅ social.envarcade.com | No | 0.4.107 |
 | ✅ social.eromedia.net | No | 0.4.74 |
@@ -2620,7 +2613,7 @@ Instances that have not been active for more than 14 days gets dropped off from 
 | ✅ squirrel.engineering | No | 0.4.107 |
 | ✅ staging-pds.rizzlr.app | No | 0.4.107 |
 | ✅ staging.rizzler.social | No | 0.4.107 |
-| ✅ stanislaw.su | No | 0.4.107 |
+| ❌ stanislaw.su | No | 0.4.107 |
 | ✅ starburst.social | No | 0.4.107 |
 | ✅ starsyn.network | No | 0.4.107 |
 | ✅ stasisb.org | No | 0.4.107 |
@@ -2701,7 +2694,7 @@ Instances that have not been active for more than 14 days gets dropped off from 
 | ✅ tnf.social | No | 0.4.107 |
 | ✅ tnn1t1s.me | No | 0.4.107 |
 | ✅ tnssocial.com | No | 0.4.107 |
-| ✅ toedi.xyz | No | 0.4.107 |
+| ❌ toedi.xyz | No | 0.4.107 |
 | ✅ tokushima-fudousan.com | No | 0.4.107 |
 | ✅ tomisin.space | No | 0.4.74 |
 | ✅ tomkrizan.com | No | 0.4.107 |
@@ -2722,7 +2715,7 @@ Instances that have not been active for more than 14 days gets dropped off from 
 | ✅ tristanbrewer.com | No | 0.4.107 |
 | ✅ troll.social | No | 0.4.107 |
 | ✅ trxl.io | No | 0.4.107 |
-| ✅ tsuai0w0.com | No | 0.4.107 |
+| ❌ tsuai0w0.com | No | 0.4.107 |
 | ✅ ttai.dev | No | 0.4.107 |
 | ✅ ttv69.xyz | No | 0.4.107 |
 | ✅ tweethive.net | No | 0.4.107 |
@@ -2839,9 +2832,9 @@ Instances that have not been active for more than 14 days gets dropped off from 
 
 ## Labelers
 
-**217** instances active  
-**199** online  
-**18** offline
+**216** instances active  
+**197** online  
+**19** offline
 
 ### Bluesky labelers
 
@@ -2928,13 +2921,12 @@ Instances that have not been active for more than 14 days gets dropped off from 
 | ✅ labeler.oak.coop | N/A |
 | ✅ labeler.pmsky.social | 0.2.0 |
 | ✅ labeler.rogama25.es | N/A |
-| ✅ labeler.sappho.systems | 0.2.0 |
+| ❌ labeler.sappho.systems | 0.2.0 |
 | ✅ labeler.themomentmag.com | 0.1.84 |
 | ✅ labeler.urbanism.plus | 0.1.84 |
 | ✅ labeler.va.ax | 0.1.42 |
 | ✅ labeler.verified.quest | 0.1.57 |
 | ✅ labeler.zomrade.live | N/A |
-| ❌ labelertest.usounds.work | N/A |
 | ✅ labeling.newsdetective.org | 0.1.84 |
 | ✅ labeller.aarondodd.com | 0.1.84 |
 | ❌ labeller.directioners.social | N/A |
@@ -2959,7 +2951,7 @@ Instances that have not been active for more than 14 days gets dropped off from 
 | ✅ mushroom-labeler.deno.dev | 0.2.0 |
 | ✅ my.bias.is | N/A |
 | ✅ namako-pona.69.mu | N/A |
-| ✅ nfl-labeler.sickos.club | N/A |
+| ❌ nfl-labeler.sickos.club | N/A |
 | ✅ nflair.foysal.it | 0.1.84 |
 | ✅ o.panslawek.pl | 0.1.84 |
 | ✅ o.trustcollective.org | 0.1.84 |
