@@ -1,3 +1,5 @@
+import { WebSocket } from 'partysocket';
+
 // deno-lint-ignore no-explicit-any
 export const createWebSocketStream = <T = any>(url: string | URL) => {
 	let ws: WebSocket | undefined;
@@ -5,20 +7,9 @@ export const createWebSocketStream = <T = any>(url: string | URL) => {
 
 	return new ReadableStream<T>({
 		start(controller) {
-			ws = new WebSocket(url);
+			ws = new WebSocket(url.toString());
 			closed = false;
 
-			ws.onclose = (ev) => {
-				if (!closed) {
-					closed = true;
-
-					if (ev.wasClean) {
-						controller.close();
-					} else {
-						controller.error(new Error(`websocket error ${ev.code}: ${ev.reason}`));
-					}
-				}
-			};
 			ws.onmessage = (ev) => {
 				if (!closed) {
 					controller.enqueue(JSON.parse(ev.data));

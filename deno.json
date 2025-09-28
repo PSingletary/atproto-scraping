@@ -16,6 +16,7 @@
 		"@mary/array-fns": "jsr:@mary/array-fns@^0.1.4",
 		"date-fns": "npm:date-fns@^4.1.0",
 		"p-map": "npm:p-map@^7.0.3",
+		"partysocket": "npm:partysocket@^1.1.5",
 		"tldts": "npm:tldts@^6.1.85"
 	}
 }
