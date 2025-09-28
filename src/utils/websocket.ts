@@ -10,6 +10,14 @@ export const createWebSocketStream = <T = any>(url: string | URL) => {
 			ws = new WebSocket(url.toString());
 			closed = false;
 
+			ws.onopen = () => {
+				console.log('[ws] opened');
+			};
+
+			ws.onclose = () => {
+				console.log('[ws] closed');
+			};
+
 			ws.onmessage = (ev) => {
 				if (!closed) {
 					controller.enqueue(JSON.parse(ev.data));
