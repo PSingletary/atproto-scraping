@@ -11,56 +11,58 @@ const dateInt = v.number().chain((value) => {
 	return v.ok(ts);
 });
 
-export const serializedState = v.object({
-	firehose: v.object({
-		cursor: v.number().optional(),
-		didWebs: v.record(
-			v.object({
-				errorAt: dateInt.optional(),
-				hash: v.string().optional(),
-				pds: v.string().optional(),
-				labeler: v.string().optional(),
-			}),
-		),
-	}),
+const status = v.union(v.literal('online'), v.literal('offline'), v.literal('unreachable'));
+
+export type EntityStatus = v.Infer<typeof status>;
+
+// Per-entity schemas
+
+export const pdsSchema = v.object({
+	url: v.string(),
+	status: status,
+	version: v.string().nullable().optional(),
+	inviteCodeRequired: v.boolean().optional(),
+	firstSeenAt: dateInt,
+
+	errorAt: dateInt.nullable(),
+});
+
+export type PDSEntry = v.Infer<typeof pdsSchema>;
+
+export const labelerSchema = v.object({
+	url: v.string(),
+	did: v.string(),
+	status: status,
+	version: v.string().nullable().optional(),
+	firstSeenAt: dateInt,
+
+	errorAt: dateInt.nullable(),
+});
+
+export type LabelerEntry = v.Infer<typeof labelerSchema>;
+
+export const identitySchema = v.object({
+	did: v.string(),
+	status: status,
+	hash: v.string().optional(),
+	pds: v.string().nullable().optional(),
+	labeler: v.string().nullable().optional(),
+	firstSeenAt: dateInt,
+
+	errorAt: dateInt.nullable(),
+});
+
+export type IdentityEntry = v.Infer<typeof identitySchema>;
+
+// Cursor-only state (persisted in state.json)
+
+export const cursorState = v.object({
 	plc: v.object({
 		cursor: v.string().optional(),
 	}),
-
-	pdses: v.record(
-		v.object({
-			errorAt: dateInt.optional(),
-			inviteCodeRequired: v.boolean().optional(),
-			version: v.string().nullable().optional(),
-		}),
-	),
-	labelers: v.record(
-		v.object({
-			errorAt: dateInt.optional(),
-			version: v.string().nullable().optional(),
-			did: v.string(),
-		}),
-	),
+	firehose: v.object({
+		cursor: v.number().optional(),
+	}),
 });
 
-export type SerializedState = v.Infer<typeof serializedState>;
-
-export interface DidWebInfo {
-	errorAt?: number;
-	hash?: string;
-	pds?: string;
-	labeler?: string;
-}
-
-export interface InstanceInfo {
-	errorAt?: number;
-	version?: string | null;
-}
-
-export interface PDSInfo extends InstanceInfo {
-	inviteCodeRequired?: boolean;
-}
-
-export interface LabelerInfo extends InstanceInfo {
-	did: string;
-}
+export type CursorState = v.Infer<typeof cursorState>;

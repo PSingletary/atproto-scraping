@@ -1,0 +1,9 @@
+{
+	"did": "did:web:test2.within.website",
+	"status": "online",
+	"hash": "7H9aLvV7vd9O_fICMSgQkTOevQySuSJmNLR9mGupcLE",
+	"pds": "https://engram.within.website/",
+	"labeler": null,
+	"firstSeenAt": 1773912872947,
+	"errorAt": null
+}

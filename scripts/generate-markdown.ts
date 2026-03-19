@@ -1,27 +1,10 @@
-// deno-lint-ignore-file no-inner-declarations
+import { labelerSchema, pdsSchema } from '../src/state.ts';
+import { readEntityDir } from '../src/io.ts';
 
-import { type SerializedState, serializedState } from '../src/state.ts';
+const RESULT_FILE = 'README.md';
 
-const STATE_FILE = Deno.env.get('STATE_FILE')!;
-const RESULT_FILE = Deno.env.get('RESULT_FILE')!;
-
-let state: SerializedState | undefined;
-
-// Read existing state file
-{
-	let json: unknown;
-
-	try {
-		const source = await Deno.readTextFile(STATE_FILE);
-		json = await JSON.parse(source);
-	} catch {
-		/* empty */
-	}
-
-	if (json !== undefined) {
-		state = serializedState.parse(json);
-	}
-}
+const pdses = await readEntityDir('pdses', pdsSchema);
+const labelers = await readEntityDir('labelers', labelerSchema);
 
 // Markdown stuff
 {
@@ -88,15 +71,11 @@ Instances that have not been active for more than 14 days gets dropped off from 
 | --- | --- |
 `;
 
-	const pdses = Object.entries(state?.pdses ?? {});
-	const labelers = Object.entries(state?.labelers ?? {});
-
 	// Generate the PDS table
-	for (const [href, info] of pdses) {
-		const host = new URL(href).host;
-		const { errorAt, inviteCodeRequired, version } = info;
+	for (const [host, info] of pdses) {
+		const { status, inviteCodeRequired, version } = info;
 
-		const on = errorAt === undefined ? '✅' : '❌';
+		const on = status === 'online' ? '✅' : '❌';
 		const v = version ? sanitize(version) : version === null ? 'N/A' : '???';
 		const invites = inviteCodeRequired === false ? 'Yes' : 'No';
 
@@ -108,11 +87,10 @@ Instances that have not been active for more than 14 days gets dropped off from 
 	}
 
 	// Generate the labeler table
-	for (const [href, info] of labelers) {
-		const host = new URL(href).host;
-		const { errorAt, version } = info;
+	for (const [host, info] of labelers) {
+		const { status, version } = info;
 
-		const on = errorAt === undefined ? '✅' : '❌';
+		const on = status === 'online' ? '✅' : '❌';
 		const v = version ? sanitize(version) : version === null ? 'N/A' : '???';
 
 		if (isBlueskyHost(host)) {
@@ -164,10 +142,7 @@ Instances that have not been active for more than 14 days gets dropped off from 
 		let blueskyHostedCount = 0;
 		let nonBlueskyHostedCount = 0;
 
-		for (const [href, info] of pdses) {
-			const host = new URL(href).host;
-			const { errorAt } = info;
-
+		for (const [host, info] of pdses) {
 			// `bsky.social` mainly acts as an authorization server for PDSes hosted
 			// under *.host.bsky.network.
 			if (host === 'bsky.social') {
@@ -176,7 +151,7 @@ Instances that have not been active for more than 14 days gets dropped off from 
 
 			totalCount++;
 
-			if (errorAt === undefined) {
+			if (info.status === 'online') {
 				onlineCount++;
 			} else {
 				offlineCount++;
@@ -203,12 +178,10 @@ Instances that have not been active for more than 14 days gets dropped off from 
 		let onlineCount = 0;
 		let offlineCount = 0;
 
-		for (const [_href, info] of labelers) {
-			const { errorAt } = info;
-
+		for (const [_host, info] of labelers) {
 			totalCount++;
 
-			if (errorAt === undefined) {
+			if (info.status === 'online') {
 				onlineCount++;
 			} else {
 				offlineCount++;

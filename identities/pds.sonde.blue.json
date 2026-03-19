@@ -1,0 +1,9 @@
+{
+	"did": "did:web:pds.sonde.blue",
+	"status": "online",
+	"hash": "dMlUhhHen0oqzSKqf79Xfj0QasF0iolLD5butih1Ouc",
+	"pds": "https://pds.sonde.blue/",
+	"labeler": null,
+	"firstSeenAt": 1773912872947,
+	"errorAt": null
+}

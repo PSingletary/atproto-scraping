@@ -1,7 +1,11 @@
-import * as v from '@badrap/valita';
+import { isHandle } from '@atcute/lexicons/syntax';
 import * as tldts from 'tldts';
 
-const isProperHostname = (hostname: string) => {
+const isProperHostname = (hostname: string): boolean => {
+	if (!isHandle(hostname)) {
+		return false;
+	}
+
 	const parsed = tldts.parse(hostname);
 	if (!parsed.domain || !(parsed.isIcann || parsed.isIp)) {
 		return false;
@@ -10,8 +14,16 @@ const isProperHostname = (hostname: string) => {
 	return true;
 };
 
-const serviceUrlString = v.string().chain((input) => {
-	const url = URL.parse(input);
+/**
+ * Validate and normalize an atproto service endpoint URL.
+ * Returns the normalized URL string, or undefined if invalid.
+ */
+export const coerceServiceEndpoint = (endpointUrl: string | undefined): string | undefined => {
+	if (endpointUrl === undefined) {
+		return undefined;
+	}
+
+	const url = URL.parse(endpointUrl);
 
 	if (
 		url !== null &&
@@ -24,15 +36,8 @@ const serviceUrlString = v.string().chain((input) => {
 		url.username === '' &&
 		url.password === ''
 	) {
-		return v.ok(url.toString());
+		return url.toString();
 	}
 
-	return v.err(`must be a valid atproto service url`);
-});
-
-export const coerceAtprotoServiceEndpoint = (endpointUrl: string | undefined): string | undefined => {
-	const result = serviceUrlString.try(endpointUrl);
-	if (result.ok) {
-		return result.value;
-	}
+	return undefined;
 };

@@ -1,0 +1,9 @@
+{
+	"did": "did:web:charlotte.partners",
+	"status": "online",
+	"hash": "7ccAc85nIofOCv_iAsd-uRO4iLRW3fUBsqnkfNvWAGU",
+	"pds": "https://pds.bun.how/",
+	"labeler": "https://labeler.charlotte.partners/",
+	"firstSeenAt": 1773912872947,
+	"errorAt": null
+}

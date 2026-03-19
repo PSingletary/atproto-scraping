@@ -1,0 +1,9 @@
+{
+	"did": "did:web:cgv.hukoubook.com",
+	"status": "online",
+	"hash": "kz_ITbnwutVTezuCaWEeR0_Hsg-EeoYZfd80fpdwrhc",
+	"pds": "https://network.hukoubook.com/",
+	"labeler": "https://labeler.hukoubook.com/",
+	"firstSeenAt": 1773912872947,
+	"errorAt": null
+}

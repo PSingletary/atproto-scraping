@@ -1,0 +1,9 @@
+{
+	"did": "did:web:testuser.rustproto.com",
+	"status": "online",
+	"hash": "p4xjh6sA05Qr08qm55dJ4QRep_3cwCwQ6Pr6ratxoTM",
+	"pds": "https://pds07.rustproto.com/",
+	"labeler": null,
+	"firstSeenAt": 1773912872947,
+	"errorAt": null
+}

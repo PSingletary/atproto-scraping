@@ -1,0 +1,9 @@
+{
+	"did": "did:web:signer3.teepds.com",
+	"status": "online",
+	"hash": "as5aYnUQpJP9C0aEFZUllR5SR7DBKNqctFmj6gbdDkw",
+	"pds": "https://pds2.teepds.com/",
+	"labeler": null,
+	"firstSeenAt": 1773912872947,
+	"errorAt": null
+}

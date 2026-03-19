@@ -1,0 +1,9 @@
+{
+	"did": "did:web:mod.squawk.chat",
+	"status": "online",
+	"hash": "72CJGyY5XvJRwKjTiDBTuPQI9Q7Rorx0FEELaQaXqFQ",
+	"pds": "https://pds.atproto.ooo/",
+	"labeler": "https://squawk.moderation.systems/",
+	"firstSeenAt": 1773912872947,
+	"errorAt": null
+}

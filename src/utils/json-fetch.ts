@@ -3,12 +3,12 @@ import { definite } from '@mary/array-fns';
 const MAX_LENGTH = 1 * 1000 * 1000;
 const MAX_DURATION = 10_000;
 
-export const jsonFetch: typeof fetch = async (input, init) => {
+export const jsonFetch: typeof globalThis.fetch = async (input, init) => {
 	const response = await fetch(input, {
 		...init,
 		keepalive: false,
 		signal: followAbortSignal([
-			init?.signal,
+			(init as RequestInit | undefined)?.signal,
 			AbortSignal.timeout(MAX_DURATION),
 		]),
 	});

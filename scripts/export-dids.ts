@@ -1,14 +1,21 @@
-import { defs, getLabelerEndpoint, getPdsEndpoint } from '@atcute/identity';
+import { glob } from 'node:fs/promises';
+
+import { getLabelerEndpoint, getPdsEndpoint } from '@atcute/identity';
+import { AtprotoWebDidDocumentResolver } from '@atcute/identity-resolver';
+import { JetstreamSubscription } from '@atcute/jetstream';
 
 import { differenceInDays } from 'date-fns/differenceInDays';
 import pmap from 'p-map';
 
 import {
-	type DidWebInfo,
-	type InstanceInfo,
-	type LabelerInfo,
-	type SerializedState,
-	serializedState,
+	type CursorState,
+	cursorState,
+	type IdentityEntry,
+	identitySchema,
+	type LabelerEntry,
+	labelerSchema,
+	type PDSEntry,
+	pdsSchema,
 } from '../src/state.ts';
 
 import {
@@ -19,40 +26,88 @@ import {
 	MAX_FAILURE_DAYS,
 	PLC_URL,
 } from '../src/constants.ts';
-import { coerceAtprotoServiceEndpoint } from '../src/utils/did.ts';
-import { jsonFetch } from '../src/utils/json-fetch.ts';
+import { coerceServiceEndpoint } from '../src/utils/did.ts';
+import { hostFromUrl, readEntity, readEntityDir, writeEntity } from '../src/io.ts';
 import { LineBreakStream } from '../src/utils/stream.ts';
-import { createWebSocketStream } from '../src/utils/websocket.ts';
 
 const now = Date.now();
 
-const STATE_FILE = Deno.env.get('STATE_FILE')!;
+const STATE_FILE = 'state.json';
 
-let state: SerializedState | undefined;
-
-// Read existing state file
+// Read cursor state
+let state: CursorState | undefined;
 {
-	let json: unknown;
-
 	try {
 		const source = await Deno.readTextFile(STATE_FILE);
-		json = JSON.parse(source);
+		state = cursorState.parse(JSON.parse(source));
 	} catch {
 		/* empty */
 	}
-
-	if (json !== undefined) {
-		state = serializedState.parse(json);
-	}
 }
 
-// Global states
-const didWebs = new Map<string, DidWebInfo>(state ? Object.entries(state.firehose.didWebs) : []);
-const pdses = new Map<string, InstanceInfo>(state ? Object.entries(state.pdses) : []);
-const labelers = new Map<string, LabelerInfo>(state ? Object.entries(state.labelers) : []);
+let plcCursor = state?.plc.cursor;
+let firehoseCursor = state?.firehose.cursor;
 
-let plcCursor: string | undefined = state?.plc.cursor;
-let firehoseCursor: number | undefined = state?.firehose.cursor;
+// Load existing entities into memory
+const pdses = await readEntityDir('pdses', pdsSchema);
+const labelers = await readEntityDir('labelers', labelerSchema);
+const identities = await readEntityDir('identities', identitySchema);
+
+// Helper: ensure a PDS is tracked
+const trackPds = (url: string) => {
+	if (EXCLUSIONS_RE.test(url)) {
+		return;
+	}
+
+	const host = hostFromUrl(url);
+	const existing = pdses.get(host);
+
+	if (existing === undefined) {
+		console.log(`  found pds: ${url}`);
+
+		const entry: PDSEntry = {
+			url,
+			status: 'unreachable',
+			firstSeenAt: now,
+			errorAt: null,
+		};
+
+		pdses.set(host, entry);
+	} else if (existing.errorAt !== null) {
+		console.log(`  found pds: ${url} (errored, resetting)`);
+		existing.errorAt = null;
+	}
+};
+
+// Helper: ensure a labeler is tracked
+const trackLabeler = (url: string, did: string) => {
+	if (EXCLUSIONS_RE.test(url)) {
+		return;
+	}
+
+	const host = hostFromUrl(url);
+	const existing = labelers.get(host);
+
+	if (existing === undefined) {
+		console.log(`  found labeler: ${url}`);
+
+		const entry: LabelerEntry = {
+			url,
+			did,
+			status: 'unreachable',
+			firstSeenAt: now,
+			errorAt: null,
+		};
+
+		labelers.set(host, entry);
+	} else {
+		if (existing.errorAt !== null) {
+			console.log(`  found labeler: ${url} (errored, resetting)`);
+			existing.errorAt = null;
+		}
+		existing.did = did;
+	}
+};
 
 // Iterate through PLC events
 {
@@ -77,47 +132,15 @@ let firehoseCursor: number | undefined = state?.firehose.cursor;
 			const { did, operation, createdAt } = json;
 
 			if (operation.type === 'plc_operation') {
-				const pds = coerceAtprotoServiceEndpoint(operation.services.atproto_pds?.endpoint);
-				const labeler = coerceAtprotoServiceEndpoint(operation.services.atproto_labeler?.endpoint);
+				const pds = coerceServiceEndpoint(operation.services.atproto_pds?.endpoint);
+				const labeler = coerceServiceEndpoint(operation.services.atproto_labeler?.endpoint);
 
-				jump: if (pds) {
-					if (EXCLUSIONS_RE.test(pds)) {
-						console.log(`  found excluded pds: ${pds}`);
-						break jump;
-					}
-
-					const info = pdses.get(pds);
-
-					if (info === undefined) {
-						console.log(`  found pds: ${pds}`);
-						pdses.set(pds, {});
-					} else if (info.errorAt !== undefined) {
-						// reset `errorAt` if we encounter this PDS
-						console.log(`  found pds: ${pds} (errored)`);
-						info.errorAt = undefined;
-					}
+				if (pds) {
+					trackPds(pds);
 				}
 
-				jump: if (labeler) {
-					if (EXCLUSIONS_RE.test(labeler)) {
-						console.log(`  found excluded labeler: ${labeler}`);
-						break jump;
-					}
-
-					const info = labelers.get(labeler);
-
-					if (info === undefined) {
-						console.log(`  found labeler: ${labeler}`);
-						labelers.set(labeler, { did });
-					} else {
-						if (info.errorAt !== undefined) {
-							// reset `errorAt` if we encounter this labeler
-							console.log(`  found labeler: ${labeler} (errored)`);
-							info.errorAt = undefined;
-						}
-
-						info.did = did;
-					}
+				if (labeler) {
+					trackLabeler(labeler, did);
 				}
 			}
 
@@ -148,9 +171,7 @@ let firehoseCursor: number | undefined = state?.firehose.cursor;
 
 	interface OperationOp {
 		type: 'plc_operation';
-		/** did:key[] */
 		rotationKeys: string[];
-		/** Record<string, did:key> */
 		verificationMethods: Record<string, string>;
 		alsoKnownAs: string[];
 		services: Record<string, Service | undefined>;
@@ -166,9 +187,7 @@ let firehoseCursor: number | undefined = state?.firehose.cursor;
 
 	interface LegacyGenesisOp {
 		type: 'create';
-		/** did:key */
 		signingKey: string;
-		/** did:key */
 		recoveryKey: string;
 		handle: string;
 		service: string;
@@ -185,21 +204,25 @@ let firehoseCursor: number | undefined = state?.firehose.cursor;
 // Watch the relay to find any did:web identities
 {
 	// run it 5 seconds back
-	let cursor: number | undefined = Math.max(0, (firehoseCursor ?? 0) - 5 * 1_000_000);
-	let throttled = false;
+	const cursor = Math.max(0, (firehoseCursor ?? 0) - 5 * 1_000_000);
 
 	console.log(`listening to relay`);
 	console.log(`  connecting to ${JETSTREAM_URL}`);
-	console.log(`  starting ${cursor || `<root>`}`);
+	console.log(`  starting ${cursor || '<root>'}`);
 
-	const url = JETSTREAM_URL + `?cursor=${cursor}` + `&wantedCollections=invalid.nsid.record`;
+	const subscription = new JetstreamSubscription({
+		url: JETSTREAM_URL,
+		cursor: cursor,
+		wantedCollections: [],
+		validateEvents: false,
+	});
 
-	for await (const data of createWebSocketStream<JetstreamEvent>(url)) {
-		if (data.time_us > cursor) {
-			cursor = data.time_us;
-		}
+	let throttled = false;
 
-		if (cursor / 1_000_000 > Date.now() / 1_000 - 3) {
+	for await (const event of subscription) {
+		const eventCursor = event.time_us;
+
+		if (eventCursor / 1_000_000 > Date.now() / 1_000 - 3) {
 			break;
 		}
 
@@ -207,152 +230,99 @@ let firehoseCursor: number | undefined = state?.firehose.cursor;
 			throttled = true;
 			Deno.unrefTimer(setTimeout(() => (throttled = false), 60_000));
 
-			console.log(`  at ${new Date(cursor / 1_000).toISOString()}`);
+			console.log(`  at ${new Date(eventCursor / 1_000).toISOString()}`);
 		}
 
-		const kind = data.kind;
+		const kind = event.kind;
 		if (kind === 'account' || kind === 'identity') {
-			const did = data.did;
+			const did = event.did;
 
 			if (did.startsWith('did:web:')) {
 				if (DID_WEB_EXCLUSIONS_RE.test(did)) {
-					console.log(`  found excluded did: ${did}`);
 					continue;
 				}
 
-				const info = didWebs.get(did);
+				const host = did.slice(8);
+				const existing = identities.get(host);
 
-				if (info === undefined) {
+				if (existing === undefined) {
 					console.log(`  found ${did}`);
-					didWebs.set(did, {});
-				} else if (info.errorAt !== undefined) {
-					// reset `errorAt` if we encounter this did:web
-					console.log(`  found ${did} (errored)`);
-					info.errorAt = undefined;
+
+					const entry: IdentityEntry = {
+						did,
+						status: 'unreachable',
+						firstSeenAt: now,
+						errorAt: null,
+					};
+
+					identities.set(host, entry);
+				} else if (existing.errorAt !== null) {
+					console.log(`  found ${did} (errored, resetting)`);
+					existing.errorAt = null;
 				}
 			}
 		}
 	}
 
-	console.log(`  ending ${cursor || `<root>`}`);
-
-	firehoseCursor = cursor;
-
-	type JetstreamEvent = AccountEvent | IdentityEvent;
-
-	interface AccountEvent {
-		kind: 'account';
-		did: string;
-		time_us: number;
-		account: {
-			seq: number;
-			did: string;
-			time: string;
-			active: boolean;
-		};
-	}
-
-	interface IdentityEvent {
-		kind: 'identity';
-		did: string;
-		time_us: number;
-		identity: {
-			seq: number;
-			did: string;
-			time: string;
-			handle?: string;
-		};
-	}
+	firehoseCursor = subscription.cursor;
+	console.log(`  ending ${firehoseCursor || '<root>'}`);
 }
 
 // Retrieve PDS information from known did:web identities
 {
+	const resolver = new AtprotoWebDidDocumentResolver();
+
 	console.log(`crawling known did:web identities`);
 
-	await pmap(Array.from(didWebs.keys()), async (did) => {
-		const host = did.slice(8);
-		const obj = didWebs.get(did)!;
+	await pmap(Array.from(identities.entries()), async ([host, entry]) => {
+		const did = entry.did;
 
 		try {
-			const res = await jsonFetch(`https://${host}/.well-known/did.json`);
-			if (!res.ok) {
-				throw new Error(`got ${res.status}`);
+			const doc = await resolver.resolve(did as `did:web:${string}`, {
+				signal: AbortSignal.timeout(10_000),
+			});
+
+			if (doc.id !== did) {
+				throw new Error(`did mismatch (got ${doc.id})`);
 			}
 
-			const text = await res.text();
+			const text = JSON.stringify(doc);
 			const sha256sum = await getSha256Hash(text);
 
-			if (obj.hash !== sha256sum) {
-				const json = JSON.parse(text);
-				const doc = defs.didDocument.parse(json, { mode: 'passthrough' });
-
-				if (doc.id !== did) {
-					throw new Error(`did mismatch (got ${doc.id})`);
-				}
-
-				const pds = coerceAtprotoServiceEndpoint(getPdsEndpoint(doc));
-				const labeler = coerceAtprotoServiceEndpoint(getLabelerEndpoint(doc));
+			if (entry.hash !== sha256sum) {
+				const pds = coerceServiceEndpoint(getPdsEndpoint(doc));
+				const labeler = coerceServiceEndpoint(getLabelerEndpoint(doc));
 
 				console.log(`  ${did}: pass (updated)`);
 
-				jump: if (pds) {
-					if (EXCLUSIONS_RE.test(pds)) {
-						console.log(`  found excluded pds: ${pds}`);
-						break jump;
-					}
-
-					const info = pdses.get(pds);
-
-					if (info === undefined) {
-						console.log(`    found pds: ${pds}`);
-						pdses.set(pds, {});
-					} else if (info.errorAt !== undefined) {
-						// reset `errorAt` if we encounter this PDS
-						console.log(`    found pds: ${pds} (errored)`);
-						info.errorAt = undefined;
-					}
+				if (pds) {
+					trackPds(pds);
 				}
 
-				jump: if (labeler) {
-					if (EXCLUSIONS_RE.test(labeler)) {
-						console.log(`  found excluded labeler: ${labeler}`);
-						break jump;
-					}
-
-					const info = labelers.get(labeler);
-
-					if (info === undefined) {
-						console.log(`    found labeler: ${labeler}`);
-						labelers.set(labeler, { did });
-					} else {
-						if (info.errorAt !== undefined) {
-							// reset `errorAt` if we encounter this labeler
-							console.log(`    found labeler: ${labeler} (errored)`);
-							info.errorAt = undefined;
-						}
-
-						info.did = did;
-					}
+				if (labeler) {
+					trackLabeler(labeler, did);
 				}
 
-				obj.hash = sha256sum;
-
-				obj.pds = pds;
-				obj.labeler = labeler;
+				entry.hash = sha256sum;
+				entry.pds = pds ?? null;
+				entry.labeler = labeler ?? null;
 			} else {
 				console.log(`  ${did}: pass`);
 			}
 
-			obj.errorAt = undefined;
+			entry.errorAt = null;
+
+			if (entry.status === 'unreachable') {
+				entry.status = 'online';
+			}
 		} catch (err) {
-			const errorAt = obj.errorAt;
-
-			if (errorAt === undefined) {
-				obj.errorAt = now;
-			} else if (differenceInDays(now, errorAt) > MAX_FAILURE_DAYS) {
-				// It's been days without a response, stop tracking.
-
-				didWebs.delete(did);
+			if (entry.errorAt === null) {
+				entry.errorAt = now;
+				if (entry.status === 'online') {
+					entry.status = 'offline';
+				}
+			} else if (differenceInDays(now, entry.errorAt) > MAX_FAILURE_DAYS) {
+				identities.delete(host);
 			}
 
 			console.log(`  ${did}: fail (${err})`);
@@ -360,22 +330,39 @@ let firehoseCursor: number | undefined = state?.firehose.cursor;
 	}, { concurrency: 8 });
 }
 
-// Persist the state
+// Persist entity files
 {
-	const serialized: SerializedState = {
-		firehose: {
-			cursor: firehoseCursor,
-			didWebs: Object.fromEntries(Array.from(didWebs)),
-		},
-		plc: {
-			cursor: plcCursor,
-		},
+	console.log(`writing entity files`);
 
-		pdses: Object.fromEntries(Array.from(pdses)),
-		labelers: Object.fromEntries(Array.from(labelers)),
+	for (const [host, entry] of pdses) {
+		await writeEntity(`pdses/${host}.json`, entry);
+	}
+
+	for (const [host, entry] of labelers) {
+		await writeEntity(`labelers/${host}.json`, entry);
+	}
+
+	for (const [host, entry] of identities) {
+		await writeEntity(`identities/${host}.json`, entry);
+	}
+
+	// Clean up deleted identity files
+	for await (const relname of glob('*.json', { cwd: 'identities' })) {
+		const key = relname.replace(/\.json$/, '');
+		if (!identities.has(key)) {
+			await Deno.remove(`identities/${relname}`);
+		}
+	}
+}
+
+// Persist cursor state
+{
+	const cursors: CursorState = {
+		plc: { cursor: plcCursor },
+		firehose: { cursor: firehoseCursor },
 	};
 
-	await Deno.writeTextFile(STATE_FILE, JSON.stringify(serialized, null, '\t'));
+	await Deno.writeTextFile(STATE_FILE, JSON.stringify(cursors, null, '\t') + '\n');
 }
 
 async function get(url: string, signal?: AbortSignal): Promise<Response> {

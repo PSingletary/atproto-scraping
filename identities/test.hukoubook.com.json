@@ -1,0 +1,9 @@
+{
+	"did": "did:web:test.hukoubook.com",
+	"status": "online",
+	"hash": "lPbcKOmuHvU2vU-UFegQniGp-VmzIA85P9ovqAVBL1k",
+	"pds": "https://network.hukoubook.com/",
+	"labeler": null,
+	"firstSeenAt": 1773912872947,
+	"errorAt": null
+}
