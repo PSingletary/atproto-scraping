@@ -1,9 +1,9 @@
 {
 	"did": "did:web:oauth-masterclass.atproto.camp",
 	"status": "offline",
-	"hash": "R8GcYxfOQHPss3oeP0TD6v-Tqo7HoVr5rr2tYsBda3I",
+	"hash": "0iKik1U1YYOtNKEuodBL23kYm6f954JSgJWRelc3oUE",
 	"pds": "https://pds.cauda.cloud/",
 	"labeler": null,
 	"firstSeenAt": 1773912872947,
-	"errorAt": 1773914454970
+	"errorAt": null
 }
