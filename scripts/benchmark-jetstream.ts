@@ -28,7 +28,7 @@ interface BenchmarkResult {
 	error: string | null;
 }
 
-async function benchmarkInstance(url: string): Promise<BenchmarkResult> {
+function benchmarkInstance(url: string): Promise<BenchmarkResult> {
 	const startCursor = Date.now() * 1_000 - CURSOR_OFFSET_US;
 	const startTime = Date.now();
 

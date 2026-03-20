@@ -7,8 +7,8 @@ import { differenceInDays } from 'date-fns/differenceInDays';
 import pmap from 'p-map';
 
 import { DEFAULT_HEADERS, MAX_FAILURE_DAYS } from '../src/constants.ts';
-import { type LabelerEntry, labelerSchema, type PDSEntry, pdsSchema } from '../src/state.ts';
-import { hostFromUrl, readEntityDir, removeEntity, writeEntity } from '../src/io.ts';
+import { labelerSchema, pdsSchema } from '../src/state.ts';
+import { readEntityDir, removeEntity, writeEntity } from '../src/io.ts';
 import { jsonFetch } from '../src/utils/json-fetch.ts';
 
 const now = Date.now();
@@ -133,7 +133,9 @@ async function getVersion(client: Client, prev: string | null | undefined) {
 	}
 
 	try {
+		// deno-lint-ignore no-explicit-any
 		const response = await client.get('_health' as any, { headers: DEFAULT_HEADERS, as: 'json' });
+		// deno-lint-ignore no-explicit-any
 		const { version } = offHealthResponse.parse(response.data as any, { mode: 'passthrough' });
 
 		return /^[0-9a-f]{40}$/.test(version) ? `git-${version.slice(0, 7)}` : version;

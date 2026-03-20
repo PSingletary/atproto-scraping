@@ -27,7 +27,7 @@ import {
 	PLC_URL,
 } from '../src/constants.ts';
 import { coerceServiceEndpoint } from '../src/utils/did.ts';
-import { hostFromUrl, readEntity, readEntityDir, writeEntity } from '../src/io.ts';
+import { hostFromUrl, readEntityDir, writeEntity } from '../src/io.ts';
 import { LineBreakStream } from '../src/utils/stream.ts';
 
 const now = Date.now();

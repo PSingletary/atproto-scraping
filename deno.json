@@ -1,7 +1,13 @@
 {
 	"tasks": {
 	},
+	"lint": {
+		"rules": {
+			"exclude": ["no-inner-declarations"]
+		}
+	},
 	"fmt": {
+		"exclude": ["README.md"],
 		"useTabs": true,
 		"indentWidth": 2,
 		"lineWidth": 110,
