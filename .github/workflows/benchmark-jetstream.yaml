@@ -1,0 +1,21 @@
+name: Benchmark Jetstream
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 12 * * 1'
+
+jobs:
+  benchmark:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Deno
+        uses: denoland/setup-deno@v2
+        with:
+          deno-version: v2.x
+
+      - name: Benchmark Jetstream instances
+        run: deno run -A ./scripts/benchmark-jetstream.ts
