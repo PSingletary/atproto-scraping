@@ -21,7 +21,7 @@ export const readEntityDir = async <T>(
 	dir: string,
 	schema: v.Type<T>,
 ): Promise<Map<string, T>> => {
-	const map = new Map<string, T>();
+	const entries: [string, T][] = [];
 
 	for await (const relname of glob('*.json', { cwd: dir })) {
 		const key = relname.replace(/\.json$/, '');
@@ -30,10 +30,12 @@ export const readEntityDir = async <T>(
 		const raw = await Deno.readTextFile(absname);
 		const parsed = schema.parse(JSON.parse(raw), { mode: 'passthrough' });
 
-		map.set(key, parsed);
+		entries.push([key, parsed]);
 	}
 
-	return map;
+	entries.sort((a, b) => a[0] < b[0] ? -1 : a[0] > b[0] ? 1 : 0);
+
+	return new Map(entries);
 };
 
 /** Write an entity file, only if the content has changed. */
