@@ -213,7 +213,7 @@ const trackLabeler = (url: string, did: string) => {
 	const subscription = new JetstreamSubscription({
 		url: JETSTREAM_URL,
 		cursor: cursor,
-		wantedCollections: [],
+		wantedCollections: ['invalid.nsid.record'],
 		validateEvents: false,
 	});
 
