@@ -1,9 +1,9 @@
 {
 	"did": "did:web:forums.atbb.space",
 	"status": "offline",
-	"hash": "LDstaXWA_NJGzXPiyCYd9fpYZD1JU8W-9vCnuZhwO1Y",
+	"hash": "fwYGoc_VRR4SGEiMokoEmqEMETpohD-LXZ735dea0eA",
 	"pds": "https://pds.atbb.space/",
 	"labeler": null,
 	"firstSeenAt": 1773912872947,
-	"errorAt": 1773914454970
+	"errorAt": null
 }
