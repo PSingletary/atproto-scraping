@@ -1,8 +1,8 @@
 {
 	"url": "https://reverse-proxy-production-5117.up.railway.app/",
 	"did": "did:plc:shiceeyep2igt6iuvtl6wipi",
-	"status": "online",
+	"status": "offline",
 	"version": "0.2.0",
 	"firstSeenAt": 1773912872947,
-	"errorAt": null
+	"errorAt": 1774139870699
 }
