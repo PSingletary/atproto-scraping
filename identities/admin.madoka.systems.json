@@ -1,9 +1,9 @@
 {
 	"did": "did:web:admin.madoka.systems",
 	"status": "online",
-	"firstSeenAt": 1774139250670,
-	"errorAt": null,
 	"hash": "94qHKWiiXT3Dl8WKe_J8Q5aLVVuW2mNhp-y2GB9E9OQ",
 	"pds": "https://pds.madoka.systems/",
-	"labeler": null
+	"labeler": null,
+	"firstSeenAt": 1774139250670,
+	"errorAt": null
 }

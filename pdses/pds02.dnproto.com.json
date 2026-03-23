@@ -1,8 +1,8 @@
 {
 	"url": "https://pds02.dnproto.com/",
-	"status": "offline",
-	"version": "dnproto dc8a1e0",
+	"status": "online",
+	"version": "dnproto 614702e",
 	"inviteCodeRequired": true,
 	"firstSeenAt": 1773912872947,
-	"errorAt": 1773916456101
+	"errorAt": null
 }
