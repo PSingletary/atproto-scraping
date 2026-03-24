@@ -1,8 +1,8 @@
 {
 	"url": "https://pds.men-esthe.info/",
-	"status": "online",
+	"status": "offline",
 	"version": "0.1.0",
 	"inviteCodeRequired": true,
 	"firstSeenAt": 1773912872947,
-	"errorAt": null
+	"errorAt": 1774312494190
 }
