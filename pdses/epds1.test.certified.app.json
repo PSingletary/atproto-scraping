@@ -1,7 +1,7 @@
 {
 	"url": "https://epds1.test.certified.app/",
-	"status": "offline",
+	"status": "online",
 	"inviteCodeRequired": true,
 	"firstSeenAt": 1773912872947,
-	"errorAt": 1774312494190
+	"errorAt": null
 }

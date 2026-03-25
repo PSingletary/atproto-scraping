@@ -1,8 +1,8 @@
 {
 	"url": "https://margin.cafe/",
 	"status": "online",
-	"version": "0.4.204",
-	"inviteCodeRequired": false,
+	"version": "0.4.208",
+	"inviteCodeRequired": true,
 	"firstSeenAt": 1773912872947,
 	"errorAt": null
 }
