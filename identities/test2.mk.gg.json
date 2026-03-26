@@ -1,9 +1,9 @@
 {
 	"did": "did:web:test2.mk.gg",
 	"status": "online",
-	"firstSeenAt": 1774398402743,
-	"errorAt": null,
 	"hash": "KUJ58vRLYx-LH1XP_XyNHEJwSJLsQqub1-8qlM8jy0I",
 	"pds": "https://test2.mk.gg/",
-	"labeler": null
+	"labeler": null,
+	"firstSeenAt": 1774398402743,
+	"errorAt": null
 }

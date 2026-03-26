@@ -1,9 +1,9 @@
 {
 	"did": "did:web:nstar.social",
 	"status": "online",
-	"firstSeenAt": 1774398402743,
-	"errorAt": null,
-	"hash": "TIkAxeRjC0SZi-dsi5u2QVaQ2Ga7u8ZSL0vTMe3Fch0",
+	"hash": "pfyrLs3HqKAK34vmW_HInM_m7zyoiIXyR_JO-qIbwEI",
 	"pds": "https://nstar.social/",
-	"labeler": null
+	"labeler": null,
+	"firstSeenAt": 1774398402743,
+	"errorAt": null
 }
