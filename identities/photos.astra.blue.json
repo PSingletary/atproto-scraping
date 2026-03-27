@@ -1,9 +1,9 @@
 {
 	"did": "did:web:photos.astra.blue",
 	"status": "online",
-	"firstSeenAt": 1774484957326,
-	"errorAt": null,
 	"hash": "AGj52UD0aJfcBcVgMrLiz4NLIUN9h5cigjozZKLDBSI",
 	"pds": "https://zio.blue/",
-	"labeler": null
+	"labeler": null,
+	"firstSeenAt": 1774484957326,
+	"errorAt": null
 }

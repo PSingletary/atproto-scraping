@@ -1,8 +1,8 @@
 {
 	"url": "https://nyet.su/",
-	"status": "offline",
+	"status": "online",
 	"version": "0.4.193",
 	"inviteCodeRequired": false,
 	"firstSeenAt": 1773912872947,
-	"errorAt": 1774485639298
+	"errorAt": null
 }

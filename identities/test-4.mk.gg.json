@@ -1,0 +1,9 @@
+{
+	"did": "did:web:test-4.mk.gg",
+	"status": "online",
+	"firstSeenAt": 1774571350018,
+	"errorAt": null,
+	"hash": "abt5EDqv-ri2Q9712BHmfTP4scGCJPi4P8rgU9-0qWY",
+	"pds": "https://test-4.mk.gg/",
+	"labeler": null
+}
