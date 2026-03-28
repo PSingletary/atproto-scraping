@@ -1,7 +1,7 @@
 {
 	"url": "https://wearemagen.org/",
 	"did": "did:plc:tcdl7e7zaswykasnmfp6watk",
-	"status": "online",
+	"status": "offline",
 	"firstSeenAt": 1773912872947,
-	"errorAt": null
+	"errorAt": 1774658323469
 }

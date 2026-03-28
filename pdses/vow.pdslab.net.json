@@ -1,7 +1,7 @@
 {
 	"url": "https://vow.pdslab.net/",
 	"status": "online",
-	"version": "vow v0.9.1-0.20260318155235-f43dda62faa0+dirty",
+	"version": "vow v0.1.0+dirty",
 	"inviteCodeRequired": true,
 	"firstSeenAt": 1773912872947,
 	"errorAt": null
