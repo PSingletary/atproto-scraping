@@ -1,8 +1,8 @@
 {
 	"url": "https://pds.doggirl.love/",
-	"status": "offline",
+	"status": "online",
 	"version": "tranquil 0.3.1",
 	"inviteCodeRequired": true,
 	"firstSeenAt": 1773912872947,
-	"errorAt": 1774744911239
+	"errorAt": null
 }

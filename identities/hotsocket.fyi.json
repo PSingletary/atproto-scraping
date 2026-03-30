@@ -1,9 +1,9 @@
 {
 	"did": "did:web:hotsocket.fyi",
-	"status": "online",
+	"status": "offline",
 	"hash": "_-6Fc7vUIiDPCVWAgvlfo9CwX8JrIYszrTTbo-0aFPY",
 	"pds": "https://pds.hotsocket.fyi/",
 	"labeler": null,
 	"firstSeenAt": 1773912872947,
-	"errorAt": null
+	"errorAt": 1774830636487
 }

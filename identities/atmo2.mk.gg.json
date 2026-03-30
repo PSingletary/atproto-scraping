@@ -1,9 +1,9 @@
 {
 	"did": "did:web:atmo2.mk.gg",
 	"status": "online",
-	"firstSeenAt": 1774744242600,
-	"errorAt": null,
 	"hash": "CBcqMlo9eMMvir3cuM3h7KdWZc2NbLwF6sT-36QmvzA",
 	"pds": "https://atmo2.mk.gg/",
-	"labeler": null
+	"labeler": null,
+	"firstSeenAt": 1774744242600,
+	"errorAt": null
 }
