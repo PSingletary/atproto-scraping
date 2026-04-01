@@ -1,9 +1,9 @@
 {
 	"did": "did:web:de1.tentacle.expert",
-	"status": "online",
+	"status": "offline",
 	"hash": "hVvyftjpXLHb4IH5hCpaHjVwiI6DpecXNmrfeT1pwD4",
 	"pds": "https://pds.tentacle.expert/",
 	"labeler": "https://feed.tentacle.expert/",
 	"firstSeenAt": 1773912872947,
-	"errorAt": null
+	"errorAt": 1775003559559
 }

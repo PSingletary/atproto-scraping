@@ -1,9 +1,9 @@
 {
 	"did": "did:web:nook.zip",
-	"status": "online",
+	"status": "offline",
 	"hash": "ZG2oHVnCjd8woX-cUt6VXm6xQMUhSYx2DyPAYd7sTtk",
 	"pds": "https://pds.nook.zone/",
 	"labeler": null,
 	"firstSeenAt": 1773912872947,
-	"errorAt": null
+	"errorAt": 1775003559559
 }
