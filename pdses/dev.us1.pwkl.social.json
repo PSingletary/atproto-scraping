@@ -1,8 +1,8 @@
 {
 	"url": "https://dev.us1.pwkl.social/",
-	"status": "offline",
+	"status": "online",
 	"version": "0.4.214",
 	"inviteCodeRequired": true,
 	"firstSeenAt": 1773912872947,
-	"errorAt": 1775004260494
+	"errorAt": null
 }

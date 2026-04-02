@@ -1,9 +1,9 @@
 {
 	"did": "did:web:didwebtest.did.unravel.fyi",
 	"status": "online",
-	"firstSeenAt": 1775003559559,
-	"errorAt": null,
 	"hash": "s1ASAVsCEl1XDtrmz9FmgamGgh3KVLQSqGUZ8A-PR7U",
 	"pds": "https://pds.unravel.fyi/",
-	"labeler": null
+	"labeler": null,
+	"firstSeenAt": 1775003559559,
+	"errorAt": null
 }

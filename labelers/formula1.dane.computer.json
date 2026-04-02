@@ -1,8 +1,8 @@
 {
 	"url": "https://formula1.dane.computer/",
 	"did": "did:plc:3wd5oaohfolufznimfhhddch",
-	"status": "online",
+	"status": "offline",
 	"version": "0.2.0",
 	"firstSeenAt": 1773912872947,
-	"errorAt": null
+	"errorAt": 1775090342055
 }

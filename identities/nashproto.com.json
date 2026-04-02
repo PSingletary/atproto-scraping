@@ -1,9 +1,9 @@
 {
 	"did": "did:web:nashproto.com",
 	"status": "online",
-	"firstSeenAt": 1775003559559,
-	"errorAt": null,
 	"hash": "aGOKbfBkW2XVumabnz7e2ubSu4N-oepwD4lZXJ1V9GM",
 	"pds": "https://teal.town/",
-	"labeler": null
+	"labeler": null,
+	"firstSeenAt": 1775003559559,
+	"errorAt": null
 }
