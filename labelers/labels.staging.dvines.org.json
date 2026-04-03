@@ -1,7 +1,7 @@
 {
 	"url": "https://labels.staging.dvines.org/",
 	"did": "did:plc:diipfbfrgwpbpoeehyovemmy",
-	"status": "offline",
+	"status": "online",
 	"firstSeenAt": 1774056469302,
-	"errorAt": 1775004260494
+	"errorAt": null
 }

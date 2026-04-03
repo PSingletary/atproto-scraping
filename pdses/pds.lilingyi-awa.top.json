@@ -2,7 +2,7 @@
 	"url": "https://pds.lilingyi-awa.top/",
 	"status": "online",
 	"version": "0.4.208",
-	"inviteCodeRequired": false,
+	"inviteCodeRequired": true,
 	"firstSeenAt": 1774916948798,
 	"errorAt": null
 }

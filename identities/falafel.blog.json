@@ -1,9 +1,9 @@
 {
 	"did": "did:web:falafel.blog",
-	"status": "online",
+	"status": "offline",
 	"hash": "wx-jYk2J37MdakTIGWty_Jjp8IIieGY2pkmBkeKl7wc",
 	"pds": "https://pds.falafel.blog/",
 	"labeler": null,
 	"firstSeenAt": 1773912872947,
-	"errorAt": null
+	"errorAt": 1775176168703
 }
