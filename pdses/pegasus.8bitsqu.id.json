@@ -1,8 +1,8 @@
 {
 	"url": "https://pegasus.8bitsqu.id/",
-	"status": "offline",
+	"status": "online",
 	"version": "pegasus bb592a5",
 	"inviteCodeRequired": true,
 	"firstSeenAt": 1773912872947,
-	"errorAt": 1775176863070
+	"errorAt": null
 }

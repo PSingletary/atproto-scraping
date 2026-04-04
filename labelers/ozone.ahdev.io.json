@@ -1,8 +1,8 @@
 {
 	"url": "https://ozone.ahdev.io/",
 	"did": "did:plc:n3kv33h2wkmbbu6xklw2aqzd",
-	"status": "online",
+	"status": "offline",
 	"version": "0.1.159",
 	"firstSeenAt": 1773912872947,
-	"errorAt": null
+	"errorAt": 1775263120000
 }

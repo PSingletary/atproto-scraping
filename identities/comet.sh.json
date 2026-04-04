@@ -1,9 +1,9 @@
 {
 	"did": "did:web:comet.sh",
-	"status": "online",
+	"status": "offline",
 	"hash": "_BVQMyCwkxjQbz9LaGcU_xql3XMHjciIhbCgimH_wxU",
 	"pds": "https://pds.ovy.cloud/",
 	"labeler": null,
 	"firstSeenAt": 1773912872947,
-	"errorAt": null
+	"errorAt": 1775262455079
 }

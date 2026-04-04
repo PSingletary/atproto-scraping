@@ -1,9 +1,9 @@
 {
 	"did": "did:web:bsky.ooo",
 	"status": "offline",
-	"hash": "B0Uko0Xtrk8Wg6BqprkOX8iIDbWW8X9riA3nip92xco",
+	"hash": "nv8F5hp7GA-YC1wgds3EqDkvq_m76RHzXg2WKEHSm9c",
 	"pds": "https://pds.vixen.computer/",
 	"labeler": null,
 	"firstSeenAt": 1773912872947,
-	"errorAt": 1774311823079
+	"errorAt": null
 }
