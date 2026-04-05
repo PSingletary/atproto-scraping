@@ -1,9 +1,9 @@
 {
 	"did": "did:web:bas.sh",
 	"status": "online",
-	"firstSeenAt": 1775262455079,
-	"errorAt": null,
-	"hash": "_Kl98pJpjL5hO3fW9bFlz0iwfdH16OZhGNXuxAwHPAI",
+	"hash": "Spa1EHPAshzFp4OT_QsFXxuEuyRH3GftQm9ycgjmvCU",
 	"pds": "https://tranquil.bas.sh/",
-	"labeler": null
+	"labeler": null,
+	"firstSeenAt": 1775262455079,
+	"errorAt": null
 }
