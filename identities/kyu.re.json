@@ -1,9 +1,9 @@
 {
 	"did": "did:web:kyu.re",
 	"status": "offline",
-	"hash": "dQQvv3eWRJC2fYQA86vRBoYAEiLg9UyJhC-XZCD4Aps",
-	"pds": "https://at.kyu.re/",
+	"hash": "38UZMigbmHiTzNHJBZTG1b_dxk551K6062CRHUXFJmo",
+	"pds": "https://try.kyu.re/",
 	"labeler": null,
 	"firstSeenAt": 1775262455079,
-	"errorAt": 1775435460452
+	"errorAt": null
 }
