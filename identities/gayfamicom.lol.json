@@ -1,9 +1,9 @@
 {
 	"did": "did:web:gayfamicom.lol",
-	"status": "online",
+	"status": "offline",
 	"hash": "CATXSiztc5zswyTnbK7Lxmzt2mnBr8bAh6y8UVDLBRc",
 	"pds": "https://at.gayfamicom.lol/",
 	"labeler": null,
 	"firstSeenAt": 1773912872947,
-	"errorAt": null
+	"errorAt": 1775608267966
 }

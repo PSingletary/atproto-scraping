@@ -1,7 +1,7 @@
 {
 	"url": "https://gainforest.id/",
 	"status": "online",
-	"inviteCodeRequired": true,
+	"inviteCodeRequired": false,
 	"firstSeenAt": 1773912872947,
 	"errorAt": null
 }
