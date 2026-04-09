@@ -1,8 +1,8 @@
 {
 	"url": "https://bsky.eenv.ru/",
-	"status": "online",
+	"status": "offline",
 	"version": "0.4.67",
 	"inviteCodeRequired": true,
 	"firstSeenAt": 1774225746283,
-	"errorAt": null
+	"errorAt": 1775695054293
 }

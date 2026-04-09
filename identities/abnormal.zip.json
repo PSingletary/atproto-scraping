@@ -1,9 +1,9 @@
 {
 	"did": "did:web:abnormal.zip",
 	"status": "online",
-	"firstSeenAt": 1775608267966,
-	"errorAt": null,
 	"hash": "b-E5xJaipQCq8B7nCpjXcd1k00iPaZIG5Oa44T3Nr9s",
 	"pds": "https://abnormal.zip/",
-	"labeler": null
+	"labeler": null,
+	"firstSeenAt": 1775608267966,
+	"errorAt": null
 }
