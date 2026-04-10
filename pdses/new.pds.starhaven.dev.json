@@ -1,6 +1,8 @@
 {
 	"url": "https://new.pds.starhaven.dev/",
-	"status": "unreachable",
+	"status": "online",
+	"version": "tranquil 0.4.7",
+	"inviteCodeRequired": false,
 	"firstSeenAt": 1774657648880,
-	"errorAt": 1774658323469
+	"errorAt": null
 }
