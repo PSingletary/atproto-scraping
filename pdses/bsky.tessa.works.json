@@ -1,8 +1,8 @@
 {
 	"url": "https://bsky.tessa.works/",
-	"status": "offline",
+	"status": "online",
 	"version": null,
 	"inviteCodeRequired": true,
 	"firstSeenAt": 1773912872947,
-	"errorAt": 1775781701850
+	"errorAt": null
 }

@@ -1,7 +1,7 @@
 {
 	"url": "https://blewit.us-west.host.bsky.network/",
 	"status": "online",
-	"version": "git-83b7246",
+	"version": null,
 	"inviteCodeRequired": true,
 	"firstSeenAt": 1773912872947,
 	"errorAt": null
