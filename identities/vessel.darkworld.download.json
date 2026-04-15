@@ -1,9 +1,9 @@
 {
 	"did": "did:web:vessel.darkworld.download",
 	"status": "online",
-	"firstSeenAt": 1776126924470,
-	"errorAt": null,
 	"hash": "z2Ug-ZGQ823wNW5sLDR-AAjCCY7xhAO0sHFspg8ccls",
 	"pds": "https://castletown.darkworld.download/",
-	"labeler": null
+	"labeler": null,
+	"firstSeenAt": 1776126924470,
+	"errorAt": null
 }

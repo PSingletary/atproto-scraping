@@ -1,9 +1,9 @@
 {
 	"did": "did:web:pds.end-the-stigma.com",
 	"status": "online",
-	"firstSeenAt": 1776126924470,
-	"errorAt": null,
 	"hash": "GL-aEkIZGHgJ7W45xCBL8ADvK0U35JMLrlgSlUUPVus",
 	"pds": "https://pds.end-the-stigma.com/",
-	"labeler": null
+	"labeler": null,
+	"firstSeenAt": 1776126924470,
+	"errorAt": null
 }

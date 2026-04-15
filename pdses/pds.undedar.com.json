@@ -1,6 +1,8 @@
 {
 	"url": "https://pds.undedar.com/",
-	"status": "unreachable",
+	"status": "online",
+	"version": "0.4.208",
+	"inviteCodeRequired": false,
 	"firstSeenAt": 1775262455079,
-	"errorAt": 1775954649415
+	"errorAt": null
 }
