@@ -1,8 +1,8 @@
 {
 	"url": "https://ozone.blueat.net/",
 	"did": "did:plc:5rqfefkxv5a3akkrmbqcb55g",
-	"status": "offline",
-	"version": "0.1.159",
+	"status": "online",
+	"version": "0.1.167",
 	"firstSeenAt": 1774398402743,
-	"errorAt": 1776214045093
+	"errorAt": null
 }
