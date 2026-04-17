@@ -1,8 +1,8 @@
 {
 	"url": "https://tell.ph1l74.com/",
-	"status": "offline",
-	"version": "0.4.208",
+	"status": "online",
+	"version": "0.4.219",
 	"inviteCodeRequired": true,
 	"firstSeenAt": 1774056469302,
-	"errorAt": 1775781701850
+	"errorAt": null
 }

@@ -2,7 +2,7 @@
 	"url": "https://pds.gander.social/",
 	"status": "online",
 	"version": null,
-	"inviteCodeRequired": false,
+	"inviteCodeRequired": true,
 	"firstSeenAt": 1773912872947,
 	"errorAt": null
 }
