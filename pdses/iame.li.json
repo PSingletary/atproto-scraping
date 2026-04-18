@@ -1,8 +1,8 @@
 {
 	"url": "https://iame.li/",
-	"status": "offline",
-	"version": "v0.9.5-5300bb8d",
+	"status": "online",
+	"version": "v0.10.17",
 	"inviteCodeRequired": true,
 	"firstSeenAt": 1773912872947,
-	"errorAt": 1776386545360
+	"errorAt": null
 }
