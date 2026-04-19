@@ -1,9 +1,9 @@
 {
 	"did": "did:web:vt3e.cat",
 	"status": "online",
-	"firstSeenAt": 1776472263391,
-	"errorAt": null,
 	"hash": "KFrl9BJLMRI8GpeEqiBIqKCtSWTW6L7Mp_AuyAJLG_Q",
 	"pds": "https://tranquil.at.vt3e.cat/",
-	"labeler": null
+	"labeler": null,
+	"firstSeenAt": 1776472263391,
+	"errorAt": null
 }
