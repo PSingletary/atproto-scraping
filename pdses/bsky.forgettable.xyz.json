@@ -1,6 +1,8 @@
 {
 	"url": "https://bsky.forgettable.xyz/",
-	"status": "unreachable",
+	"status": "online",
+	"version": "0.4.219",
+	"inviteCodeRequired": true,
 	"firstSeenAt": 1776558847387,
-	"errorAt": 1776559504889
+	"errorAt": null
 }

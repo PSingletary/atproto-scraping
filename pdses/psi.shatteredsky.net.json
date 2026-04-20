@@ -1,7 +1,7 @@
 {
 	"url": "https://psi.shatteredsky.net/",
-	"status": "online",
+	"status": "offline",
 	"version": "0.3.0-beta.3",
 	"firstSeenAt": 1773912872947,
-	"errorAt": null
+	"errorAt": 1776645894842
 }

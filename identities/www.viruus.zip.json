@@ -1,9 +1,9 @@
 {
 	"did": "did:web:www.viruus.zip",
-	"status": "online",
+	"status": "offline",
 	"hash": "S9kAMyQHErKeR6WBgXVNFcXenQqeFyRsdF80ibnFrvU",
 	"pds": "https://pds.viruus.zip/",
 	"labeler": null,
 	"firstSeenAt": 1773912872947,
-	"errorAt": null
+	"errorAt": 1776645240481
 }

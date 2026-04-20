@@ -1,8 +1,8 @@
 {
 	"url": "https://pds.awoo.ren/",
-	"status": "offline",
-	"version": "tranquil 0.5.2",
+	"status": "online",
+	"version": "tranquil 0.5.5",
 	"inviteCodeRequired": true,
 	"firstSeenAt": 1773912872947,
-	"errorAt": 1776559504889
+	"errorAt": null
 }

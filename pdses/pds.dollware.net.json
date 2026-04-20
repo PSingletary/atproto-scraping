@@ -1,8 +1,8 @@
 {
 	"url": "https://pds.dollware.net/",
-	"status": "offline",
+	"status": "online",
 	"version": "undisclosed",
 	"inviteCodeRequired": true,
 	"firstSeenAt": 1773912872947,
-	"errorAt": 1776559504889
+	"errorAt": null
 }
