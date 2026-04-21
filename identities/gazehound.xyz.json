@@ -1,9 +1,9 @@
 {
 	"did": "did:web:gazehound.xyz",
-	"status": "online",
+	"status": "offline",
 	"hash": "6Oio7YlOLVLfvfFrdF4l7--94TUiw53LpcsiaYmkFQ0",
 	"pds": "https://atproto.ceo/",
 	"labeler": null,
 	"firstSeenAt": 1775176168703,
-	"errorAt": null
+	"errorAt": 1776731696011
 }

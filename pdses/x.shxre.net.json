@@ -2,7 +2,7 @@
 	"url": "https://x.shxre.net/",
 	"status": "online",
 	"version": "0.4.219",
-	"inviteCodeRequired": false,
+	"inviteCodeRequired": true,
 	"firstSeenAt": 1776040409244,
 	"errorAt": null
 }
