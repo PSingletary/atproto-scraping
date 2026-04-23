@@ -1,7 +1,7 @@
 {
 	"url": "https://alternativeproto.net/",
 	"did": "did:plc:zj3ek5g7p4gxvg6mcnxazar5",
-	"status": "offline",
+	"status": "online",
 	"firstSeenAt": 1773912872947,
-	"errorAt": 1776732340308
+	"errorAt": null
 }

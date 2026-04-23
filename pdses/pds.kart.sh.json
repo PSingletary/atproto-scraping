@@ -2,7 +2,7 @@
 	"url": "https://pds.kart.sh/",
 	"status": "online",
 	"version": "tranquil 0.5.5",
-	"inviteCodeRequired": false,
+	"inviteCodeRequired": true,
 	"firstSeenAt": 1776817899805,
 	"errorAt": null
 }

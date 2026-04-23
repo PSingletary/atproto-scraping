@@ -1,9 +1,9 @@
 {
 	"did": "did:web:natey.me",
 	"status": "online",
-	"firstSeenAt": 1776817899805,
-	"errorAt": null,
 	"hash": "qKK0ZKydF40S3woM1uxD5_osnCy0YMsKRatfXSmHnDc",
 	"pds": "https://pds.natey.sh/",
-	"labeler": null
+	"labeler": null,
+	"firstSeenAt": 1776817899805,
+	"errorAt": null
 }

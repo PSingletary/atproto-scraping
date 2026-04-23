@@ -1,8 +1,8 @@
 {
 	"url": "https://labels.medsky.social/",
 	"did": "did:plc:fmug4zegnl7lf6ljp7aokpeh",
-	"status": "offline",
+	"status": "online",
 	"version": "0.1.167",
 	"firstSeenAt": 1774571350018,
-	"errorAt": 1776818545333
+	"errorAt": null
 }
