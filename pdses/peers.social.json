@@ -1,7 +1,7 @@
 {
 	"url": "https://peers.social/",
-	"status": "online",
+	"status": "offline",
 	"inviteCodeRequired": false,
 	"firstSeenAt": 1775349077192,
-	"errorAt": null
+	"errorAt": 1776991650986
 }

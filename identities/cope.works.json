@@ -1,9 +1,9 @@
 {
 	"did": "did:web:cope.works",
 	"status": "online",
-	"firstSeenAt": 1776904621212,
-	"errorAt": null,
 	"hash": "YekasUX5jPJ1y2h3GWb8nj6fCANb5tEYnh4Uo_C4hTA",
 	"pds": "https://goeo.lol/",
-	"labeler": null
+	"labeler": null,
+	"firstSeenAt": 1776904621212,
+	"errorAt": null
 }

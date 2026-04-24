@@ -1,8 +1,8 @@
 {
 	"url": "https://middleearth.quest/",
 	"did": "did:plc:nwxpzxyajtoqytsorxuwgolt",
-	"status": "offline",
+	"status": "online",
 	"version": null,
 	"firstSeenAt": 1773912872947,
-	"errorAt": 1776732340308
+	"errorAt": null
 }

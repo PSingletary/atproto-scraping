@@ -1,6 +1,8 @@
 {
 	"url": "https://pds.dustinniles.com/",
-	"status": "unreachable",
+	"status": "online",
+	"version": "0.4.219",
+	"inviteCodeRequired": true,
 	"firstSeenAt": 1776904621212,
-	"errorAt": 1776905313576
+	"errorAt": null
 }

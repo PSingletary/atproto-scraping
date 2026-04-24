@@ -1,8 +1,8 @@
 {
 	"url": "https://bsky.acreetionos.org/",
-	"status": "offline",
-	"version": "0.4.208",
-	"inviteCodeRequired": false,
+	"status": "online",
+	"version": "0.4.219",
+	"inviteCodeRequired": true,
 	"firstSeenAt": 1773912872947,
-	"errorAt": 1776041120980
+	"errorAt": null
 }
