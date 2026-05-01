@@ -1,8 +1,8 @@
 {
 	"url": "https://bsky.xvps.jp/",
-	"status": "online",
+	"status": "offline",
 	"version": "0.4.219",
 	"inviteCodeRequired": true,
 	"firstSeenAt": 1777424446236,
-	"errorAt": null
+	"errorAt": 1777598131559
 }

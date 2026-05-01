@@ -1,6 +1,8 @@
 {
 	"url": "https://pds.sunflower.lgbt/",
-	"status": "unreachable",
+	"status": "online",
+	"version": "tranquil 0.5.7",
+	"inviteCodeRequired": true,
 	"firstSeenAt": 1777510825637,
-	"errorAt": 1777511466859
+	"errorAt": null
 }
