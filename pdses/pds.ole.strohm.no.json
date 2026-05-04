@@ -1,6 +1,8 @@
 {
 	"url": "https://pds.ole.strohm.no/",
-	"status": "unreachable",
+	"status": "online",
+	"version": "0.4.193",
+	"inviteCodeRequired": true,
 	"firstSeenAt": 1777770223402,
-	"errorAt": 1777770831770
+	"errorAt": null
 }
