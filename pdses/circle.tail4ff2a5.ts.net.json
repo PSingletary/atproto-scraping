@@ -1,6 +1,8 @@
 {
 	"url": "https://circle.tail4ff2a5.ts.net/",
-	"status": "unreachable",
+	"status": "online",
+	"version": "0.4.219",
+	"inviteCodeRequired": false,
 	"firstSeenAt": 1778375114597,
-	"errorAt": 1778375712856
+	"errorAt": null
 }
