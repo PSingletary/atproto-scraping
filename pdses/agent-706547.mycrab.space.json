@@ -1,7 +1,7 @@
 {
 	"url": "https://agent-706547.mycrab.space/",
-	"status": "online",
+	"status": "offline",
 	"version": "millipds v0.1.dev241+gfaf0c36ba",
 	"firstSeenAt": 1778547556794,
-	"errorAt": null
+	"errorAt": 1778634889300
 }
