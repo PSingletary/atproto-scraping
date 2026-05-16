@@ -1,8 +1,8 @@
 {
 	"url": "https://34-220-255-101.sslip.io/",
-	"status": "online",
+	"status": "offline",
 	"version": "0.4.219",
 	"inviteCodeRequired": false,
 	"firstSeenAt": 1778720721468,
-	"errorAt": null
+	"errorAt": 1778893757011
 }
