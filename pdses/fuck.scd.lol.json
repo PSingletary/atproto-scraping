@@ -1,6 +1,8 @@
 {
 	"url": "https://fuck.scd.lol/",
-	"status": "unreachable",
+	"status": "online",
+	"version": "0.4.182",
+	"inviteCodeRequired": true,
 	"firstSeenAt": 1778893146909,
-	"errorAt": 1778893757011
+	"errorAt": null
 }
