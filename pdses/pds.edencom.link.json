@@ -1,7 +1,7 @@
 {
 	"url": "https://pds.edencom.link/",
-	"status": "offline",
+	"status": "online",
 	"inviteCodeRequired": false,
 	"firstSeenAt": 1777165109532,
-	"errorAt": 1779240032831
+	"errorAt": null
 }

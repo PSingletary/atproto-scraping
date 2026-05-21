@@ -1,8 +1,8 @@
 {
 	"url": "https://turso.skeetcentral.com/",
-	"status": "offline",
+	"status": "online",
 	"version": "0.4.222",
 	"inviteCodeRequired": true,
 	"firstSeenAt": 1779066462939,
-	"errorAt": 1779240032831
+	"errorAt": null
 }
