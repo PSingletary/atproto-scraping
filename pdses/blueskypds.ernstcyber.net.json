@@ -1,8 +1,8 @@
 {
 	"url": "https://blueskypds.ernstcyber.net/",
-	"status": "offline",
+	"status": "online",
 	"version": "0.4.219",
 	"inviteCodeRequired": true,
 	"firstSeenAt": 1777251465830,
-	"errorAt": 1779412742107
+	"errorAt": null
 }
