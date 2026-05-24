@@ -1,6 +1,8 @@
 {
 	"url": "https://sandbox-pds.graphy.ca/",
-	"status": "unreachable",
+	"status": "online",
+	"version": "0.4.219",
+	"inviteCodeRequired": true,
 	"firstSeenAt": 1779498254906,
-	"errorAt": 1779498915395
+	"errorAt": null
 }
