@@ -1,8 +1,8 @@
 {
 	"url": "https://pds.know-me.tools/",
-	"status": "online",
+	"status": "offline",
 	"version": "0.3.0-beta.3",
 	"inviteCodeRequired": false,
 	"firstSeenAt": 1777424446236,
-	"errorAt": null
+	"errorAt": 1780017764029
 }
