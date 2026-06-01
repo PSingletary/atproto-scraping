@@ -1,8 +1,8 @@
 {
 	"url": "https://deadair.cloud/",
-	"status": "offline",
-	"version": "0.4.219",
+	"status": "online",
+	"version": "0.4.5001",
 	"inviteCodeRequired": true,
 	"firstSeenAt": 1779584942777,
-	"errorAt": 1780190627911
+	"errorAt": null
 }
