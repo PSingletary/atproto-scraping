@@ -1,8 +1,8 @@
 {
 	"url": "https://bsky.woidptr.com/",
-	"status": "offline",
+	"status": "online",
 	"version": "0.4.219",
 	"inviteCodeRequired": true,
 	"firstSeenAt": 1780017113883,
-	"errorAt": 1780277235559
+	"errorAt": null
 }
