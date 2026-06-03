@@ -1,6 +1,8 @@
 {
 	"url": "https://kity.cat/",
-	"status": "unreachable",
+	"status": "online",
+	"version": "tranquil 0.6.2",
+	"inviteCodeRequired": true,
 	"firstSeenAt": 1779930134543,
-	"errorAt": 1779930783731
+	"errorAt": null
 }

@@ -1,8 +1,8 @@
 {
 	"url": "https://pds.blch.space/",
-	"status": "offline",
+	"status": "online",
 	"version": null,
 	"inviteCodeRequired": false,
 	"firstSeenAt": 1778375114597,
-	"errorAt": 1779930783731
+	"errorAt": null
 }
