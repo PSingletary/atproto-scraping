@@ -1,8 +1,8 @@
 {
 	"url": "https://ozone.arimelody.space/",
 	"did": "did:plc:eea72b4p7bmovnu53466lxr6",
-	"status": "offline",
+	"status": "online",
 	"version": "0.1.167",
 	"firstSeenAt": 1773912872947,
-	"errorAt": 1780708702763
+	"errorAt": null
 }

@@ -1,8 +1,8 @@
 {
 	"url": "https://ozone.wyvern.blue/",
 	"did": "did:plc:mcskx665cnmnkgqnunk6lkrk",
-	"status": "offline",
+	"status": "online",
 	"version": "0.1.167",
 	"firstSeenAt": 1773912872947,
-	"errorAt": 1780708702763
+	"errorAt": null
 }

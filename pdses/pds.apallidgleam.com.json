@@ -1,8 +1,8 @@
 {
 	"url": "https://pds.apallidgleam.com/",
-	"status": "online",
+	"status": "offline",
 	"version": "0.4.219",
 	"inviteCodeRequired": true,
 	"firstSeenAt": 1778375114597,
-	"errorAt": null
+	"errorAt": 1780795630546
 }
