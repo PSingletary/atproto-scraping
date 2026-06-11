@@ -1,7 +1,7 @@
 {
 	"url": "https://feed.joshuashew.com/",
 	"did": "did:plc:sfmur4r4wzriaupbgmz7sshy",
-	"status": "offline",
+	"status": "online",
 	"firstSeenAt": 1779584942777,
-	"errorAt": 1781054669098
+	"errorAt": null
 }

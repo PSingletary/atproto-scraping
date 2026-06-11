@@ -1,6 +1,8 @@
 {
 	"url": "https://pds.djara.dev/",
-	"status": "unreachable",
+	"status": "online",
+	"version": "0.4.208",
+	"inviteCodeRequired": true,
 	"firstSeenAt": 1780276615043,
-	"errorAt": 1780277235559
+	"errorAt": null
 }
