@@ -1,8 +1,8 @@
 {
 	"url": "https://social.corviform.gay/",
-	"status": "offline",
-	"version": "tranquil 0.6.4",
+	"status": "online",
+	"version": "tranquil 0.6.5",
 	"inviteCodeRequired": true,
 	"firstSeenAt": 1781140467040,
-	"errorAt": 1781487102216
+	"errorAt": null
 }
