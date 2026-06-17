@@ -1,8 +1,8 @@
 {
 	"url": "https://bsky.sleepyhead.rip/",
-	"status": "offline",
+	"status": "online",
 	"version": "0.4.219",
 	"inviteCodeRequired": true,
 	"firstSeenAt": 1778288384881,
-	"errorAt": 1781573587379
+	"errorAt": null
 }
