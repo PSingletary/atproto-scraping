@@ -1,8 +1,8 @@
 {
 	"url": "https://at.resenha.top/",
-	"status": "offline",
+	"status": "online",
 	"version": "0.4.5001",
 	"inviteCodeRequired": true,
 	"firstSeenAt": 1781399861074,
-	"errorAt": 1781746060122
+	"errorAt": null
 }
