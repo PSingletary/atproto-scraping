@@ -1,8 +1,8 @@
 {
 	"url": "https://pds.truesters.com/",
-	"status": "offline",
+	"status": "online",
 	"version": "0.4.5001",
 	"inviteCodeRequired": true,
 	"firstSeenAt": 1781227046514,
-	"errorAt": 1781573587379
+	"errorAt": null
 }

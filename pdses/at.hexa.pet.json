@@ -1,8 +1,8 @@
 {
 	"url": "https://at.hexa.pet/",
-	"status": "online",
+	"status": "offline",
 	"version": "tranquil 0.6.2",
 	"inviteCodeRequired": true,
 	"firstSeenAt": 1779412078276,
-	"errorAt": null
+	"errorAt": 1781918527342
 }
