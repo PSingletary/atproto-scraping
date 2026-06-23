@@ -1,8 +1,8 @@
 {
 	"url": "https://pds.kahdu.org/",
-	"status": "offline",
+	"status": "online",
 	"version": "tranquil 0.5.5",
 	"inviteCodeRequired": true,
 	"firstSeenAt": 1777683457777,
-	"errorAt": 1782091845476
+	"errorAt": null
 }
