@@ -1,8 +1,8 @@
 {
 	"url": "https://krekeny.eny.space/",
-	"status": "offline",
+	"status": "online",
 	"version": "0.4.204",
 	"inviteCodeRequired": true,
 	"firstSeenAt": 1780103195711,
-	"errorAt": 1782263685693
+	"errorAt": null
 }

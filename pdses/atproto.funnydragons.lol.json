@@ -1,8 +1,8 @@
 {
 	"url": "https://atproto.funnydragons.lol/",
-	"status": "offline",
+	"status": "online",
 	"version": "tranquil 0.6.5",
 	"inviteCodeRequired": true,
 	"firstSeenAt": 1779412078276,
-	"errorAt": 1782263685693
+	"errorAt": null
 }
