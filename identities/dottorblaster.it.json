@@ -1,9 +1,9 @@
 {
 	"did": "did:web:dottorblaster.it",
-	"status": "online",
+	"status": "offline",
 	"hash": "LW-9WEx1WiRRNDGCgbrSE39zRuo5uCf-ZgEW8V6sBVg",
 	"pds": "https://wallera.computer/",
 	"labeler": null,
 	"firstSeenAt": 1773912872947,
-	"errorAt": null
+	"errorAt": 1782522396839
 }
