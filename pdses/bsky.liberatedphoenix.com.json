@@ -1,8 +1,8 @@
 {
 	"url": "https://bsky.liberatedphoenix.com/",
-	"status": "offline",
+	"status": "online",
 	"version": "0.4.5001",
 	"inviteCodeRequired": true,
 	"firstSeenAt": 1781486428756,
-	"errorAt": 1782523065410
+	"errorAt": null
 }
