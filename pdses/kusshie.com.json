@@ -1,8 +1,8 @@
 {
 	"url": "https://kusshie.com/",
-	"status": "offline",
+	"status": "online",
 	"version": "0.4.5001",
 	"inviteCodeRequired": true,
 	"firstSeenAt": 1781917875721,
-	"errorAt": 1782609793900
+	"errorAt": null
 }
