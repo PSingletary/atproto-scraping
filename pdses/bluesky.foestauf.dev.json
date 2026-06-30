@@ -1,8 +1,8 @@
 {
 	"url": "https://bluesky.foestauf.dev/",
-	"status": "offline",
-	"version": "0.4.5006",
+	"status": "online",
+	"version": "0.4.5009",
 	"inviteCodeRequired": true,
 	"firstSeenAt": 1773912872947,
-	"errorAt": 1782696220770
+	"errorAt": null
 }
