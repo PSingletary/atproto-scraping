@@ -1,7 +1,7 @@
 {
 	"url": "https://dev.atpcraft.lenooby09.tech/",
 	"did": "did:plc:6y74tzb6iqeuzuqqxgkizrek",
-	"status": "unreachable",
+	"status": "online",
 	"firstSeenAt": 1781572911517,
-	"errorAt": 1781573587379
+	"errorAt": null
 }
