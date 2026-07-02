@@ -1,8 +1,8 @@
 {
 	"url": "https://pds404.uk/",
-	"status": "offline",
+	"status": "online",
 	"version": "cocoon list-50-g228e4c9",
 	"inviteCodeRequired": true,
 	"firstSeenAt": 1773912872947,
-	"errorAt": 1782869093887
+	"errorAt": null
 }
