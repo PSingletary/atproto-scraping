@@ -1,8 +1,8 @@
 {
 	"url": "https://laikadog.ru/",
-	"status": "offline",
+	"status": "online",
 	"version": "0.4.5009",
 	"inviteCodeRequired": true,
 	"firstSeenAt": 1782263033802,
-	"errorAt": 1782955180638
+	"errorAt": null
 }
