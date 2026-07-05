@@ -1,6 +1,8 @@
 {
 	"url": "https://bsky.stwxhz.myaddr.io/",
-	"status": "unreachable",
+	"status": "online",
+	"version": "0.4.5009",
+	"inviteCodeRequired": true,
 	"firstSeenAt": 1782436264938,
-	"errorAt": 1782609793900
+	"errorAt": null
 }
