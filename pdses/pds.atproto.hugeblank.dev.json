@@ -1,8 +1,8 @@
 {
 	"url": "https://pds.atproto.hugeblank.dev/",
-	"status": "offline",
+	"status": "online",
 	"version": null,
 	"inviteCodeRequired": true,
 	"firstSeenAt": 1773912872947,
-	"errorAt": 1782869093887
+	"errorAt": null
 }
