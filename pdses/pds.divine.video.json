@@ -1,8 +1,8 @@
 {
 	"url": "https://pds.divine.video/",
-	"status": "offline",
+	"status": "online",
 	"version": "0.3.0-beta.3",
 	"inviteCodeRequired": true,
 	"firstSeenAt": 1780708061493,
-	"errorAt": 1783386483513
+	"errorAt": null
 }
