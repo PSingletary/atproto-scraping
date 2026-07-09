@@ -1,8 +1,8 @@
 {
 	"url": "https://pds.theblueai.org/",
-	"status": "offline",
+	"status": "online",
 	"version": "0.4.5009",
 	"inviteCodeRequired": true,
 	"firstSeenAt": 1782954511353,
-	"errorAt": 1783127664906
+	"errorAt": null
 }

@@ -1,8 +1,8 @@
 {
 	"url": "https://bluesky.neuro-net.net/",
-	"status": "offline",
+	"status": "online",
 	"version": "0.4.5001",
 	"inviteCodeRequired": true,
 	"firstSeenAt": 1782004797436,
-	"errorAt": 1783472386177
+	"errorAt": null
 }

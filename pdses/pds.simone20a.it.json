@@ -1,8 +1,8 @@
 {
 	"url": "https://pds.simone20a.it/",
-	"status": "online",
+	"status": "offline",
 	"version": "0.4.5001",
 	"inviteCodeRequired": true,
 	"firstSeenAt": 1778547556794,
-	"errorAt": null
+	"errorAt": 1783559069481
 }

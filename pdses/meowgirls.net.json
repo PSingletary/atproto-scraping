@@ -1,8 +1,8 @@
 {
 	"url": "https://meowgirls.net/",
-	"status": "offline",
+	"status": "online",
 	"version": "tranquil 0.4.7",
 	"inviteCodeRequired": true,
 	"firstSeenAt": 1774830636487,
-	"errorAt": 1783472386177
+	"errorAt": null
 }
