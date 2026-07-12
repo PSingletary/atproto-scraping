@@ -1,7 +1,7 @@
 {
 	"url": "https://confesslabeler.duckdns.org/",
 	"did": "did:plc:svq4rgb4cb2ban66ae7jn5mk",
-	"status": "offline",
+	"status": "online",
 	"firstSeenAt": 1782868404992,
-	"errorAt": 1783731365347
+	"errorAt": null
 }
