@@ -1,9 +1,9 @@
 {
 	"did": "did:web:abed8588.kald.shop",
 	"status": "offline",
-	"hash": "WTpNlcvUwEBtw7GSLeI95n5vbuGvIQiyTk0JlZRdYBM",
-	"pds": "https://app.lasd.site/",
+	"hash": "QI3IEuxRSw_ydC7p_GHN-HfxTv9YaVhP9bW5ocyHnLU",
+	"pds": "https://as.lasd.site/",
 	"labeler": null,
 	"firstSeenAt": 1783730740502,
-	"errorAt": 1783817399627
+	"errorAt": null
 }
