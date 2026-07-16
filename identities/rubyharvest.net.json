@@ -1,6 +1,9 @@
 {
 	"did": "did:web:rubyharvest.net",
-	"status": "unreachable",
+	"status": "online",
+	"hash": "XnPij-DWghl0M4mF1ogYbzH-0AduySdiUfIxzCgrACA",
+	"pds": "https://pds.rubyharvest.net/",
+	"labeler": null,
 	"firstSeenAt": 1784076070642,
-	"errorAt": 1784076070642
+	"errorAt": null
 }

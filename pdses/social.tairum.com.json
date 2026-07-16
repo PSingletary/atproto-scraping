@@ -1,8 +1,8 @@
 {
 	"url": "https://social.tairum.com/",
-	"status": "online",
+	"status": "offline",
 	"version": "0.4.5009",
 	"inviteCodeRequired": true,
 	"firstSeenAt": 1783644710050,
-	"errorAt": null
+	"errorAt": 1784163398771
 }
