@@ -1,8 +1,8 @@
 {
 	"url": "https://bsky.chrise.com/",
-	"status": "offline",
+	"status": "online",
 	"version": "0.4.5009",
 	"inviteCodeRequired": true,
 	"firstSeenAt": 1779844177091,
-	"errorAt": 1784163398771
+	"errorAt": null
 }
