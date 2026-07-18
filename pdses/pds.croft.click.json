@@ -1,6 +1,8 @@
 {
 	"url": "https://pds.croft.click/",
-	"status": "unreachable",
+	"status": "online",
+	"version": "0.4.5009",
+	"inviteCodeRequired": true,
 	"firstSeenAt": 1784076070642,
-	"errorAt": 1784163398771
+	"errorAt": null
 }
