@@ -1,8 +1,8 @@
 {
 	"url": "https://az.lasd.site/",
-	"status": "online",
+	"status": "offline",
 	"version": "tranquil 0.6.0",
 	"inviteCodeRequired": false,
 	"firstSeenAt": 1784508567825,
-	"errorAt": null
+	"errorAt": 1784681850798
 }
