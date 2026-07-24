@@ -1,8 +1,8 @@
 {
 	"url": "https://pds.tale.me/",
-	"status": "offline",
+	"status": "online",
 	"version": "0.4.219",
 	"inviteCodeRequired": true,
 	"firstSeenAt": 1777770223402,
-	"errorAt": 1784768351871
+	"errorAt": null
 }
