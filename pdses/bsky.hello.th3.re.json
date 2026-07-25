@@ -1,8 +1,8 @@
 {
 	"url": "https://bsky.hello.th3.re/",
-	"status": "online",
+	"status": "offline",
 	"version": "0.4.5009",
 	"inviteCodeRequired": true,
 	"firstSeenAt": 1782263033802,
-	"errorAt": null
+	"errorAt": 1784941117730
 }
