@@ -1,8 +1,8 @@
 {
 	"url": "https://hazeapp.uk/",
-	"status": "offline",
+	"status": "online",
 	"version": "tweets-2-bsky-builtin",
 	"inviteCodeRequired": true,
 	"firstSeenAt": 1784076070642,
-	"errorAt": 1784768351871
+	"errorAt": null
 }

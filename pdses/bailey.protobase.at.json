@@ -1,6 +1,8 @@
 {
 	"url": "https://bailey.protobase.at/",
-	"status": "unreachable",
+	"status": "online",
+	"version": "0.4.5009",
+	"inviteCodeRequired": true,
 	"firstSeenAt": 1784940473166,
-	"errorAt": 1784941117730
+	"errorAt": null
 }
