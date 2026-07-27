@@ -1,7 +1,7 @@
 {
 	"url": "https://psd.nearhorizon.app/",
-	"status": "offline",
+	"status": "online",
 	"inviteCodeRequired": false,
 	"firstSeenAt": 1783299478826,
-	"errorAt": 1784509232974
+	"errorAt": null
 }
