@@ -1,8 +1,8 @@
 {
 	"url": "https://ozone.axioltiyus.com/",
 	"did": "did:plc:jwqm25l6zbkgmorz3k35hf32",
-	"status": "offline",
+	"status": "online",
 	"version": "0.1.167",
 	"firstSeenAt": 1773912872947,
-	"errorAt": 1785114085710
+	"errorAt": null
 }

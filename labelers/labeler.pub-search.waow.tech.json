@@ -1,7 +1,7 @@
 {
 	"url": "https://labeler.pub-search.waow.tech/",
 	"did": "did:plc:aywbh7hovtsqpv2pzkldmqdv",
-	"status": "online",
+	"status": "offline",
 	"firstSeenAt": 1782868404992,
-	"errorAt": null
+	"errorAt": 1785200107441
 }
