@@ -1,6 +1,8 @@
 {
 	"url": "https://a.tpro.to/",
-	"status": "unreachable",
+	"status": "online",
+	"version": "tranquil 0.6.5",
+	"inviteCodeRequired": true,
 	"firstSeenAt": 1785199466006,
-	"errorAt": 1785200107441
+	"errorAt": null
 }
