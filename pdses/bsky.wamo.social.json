@@ -1,8 +1,8 @@
 {
 	"url": "https://bsky.wamo.social/",
-	"status": "offline",
+	"status": "online",
 	"version": "0.4.5006",
 	"inviteCodeRequired": true,
 	"firstSeenAt": 1782349686114,
-	"errorAt": 1784249872859
+	"errorAt": null
 }
