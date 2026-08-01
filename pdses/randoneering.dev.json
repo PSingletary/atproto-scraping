@@ -1,8 +1,8 @@
 {
 	"url": "https://randoneering.dev/",
-	"status": "offline",
+	"status": "online",
 	"version": "0.4.5009",
 	"inviteCodeRequired": true,
 	"firstSeenAt": 1782004797436,
-	"errorAt": 1785459646277
+	"errorAt": null
 }
