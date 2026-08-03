@@ -1,8 +1,8 @@
 {
 	"url": "https://pds.ralith.com/",
-	"status": "offline",
+	"status": "online",
 	"version": "0.4.5006",
 	"inviteCodeRequired": true,
 	"firstSeenAt": 1780795021879,
-	"errorAt": 1785632438037
+	"errorAt": null
 }
