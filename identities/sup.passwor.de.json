@@ -1,9 +1,9 @@
 {
 	"did": "did:web:sup.passwor.de",
-	"status": "online",
+	"status": "offline",
 	"hash": "XtNz0c1tWMwhdvjkGrPM6k7ELavS9izDKJLSxQypung",
 	"pds": "https://blue.passwor.de/",
 	"labeler": null,
 	"firstSeenAt": 1777942521981,
-	"errorAt": null
+	"errorAt": 1785890611235
 }
