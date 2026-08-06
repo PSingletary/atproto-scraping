@@ -1,8 +1,8 @@
 {
 	"url": "https://blue.passwor.de/",
-	"status": "offline",
+	"status": "online",
 	"version": "0.4.5009",
 	"inviteCodeRequired": true,
 	"firstSeenAt": 1777856472567,
-	"errorAt": 1785891331142
+	"errorAt": null
 }

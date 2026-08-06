@@ -1,8 +1,8 @@
 {
 	"url": "https://pds.fur.onl/",
-	"status": "offline",
+	"status": "online",
 	"version": "tranquil 0.6.6",
 	"inviteCodeRequired": false,
 	"firstSeenAt": 1785804453285,
-	"errorAt": 1785891331142
+	"errorAt": null
 }

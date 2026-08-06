@@ -1,8 +1,8 @@
 {
 	"url": "https://pds.jgundermann.com/",
-	"status": "online",
+	"status": "offline",
 	"version": "0.4.5009",
 	"inviteCodeRequired": true,
 	"firstSeenAt": 1781572911517,
-	"errorAt": null
+	"errorAt": 1785986815212
 }

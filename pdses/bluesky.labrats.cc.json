@@ -1,8 +1,8 @@
 {
 	"url": "https://bluesky.labrats.cc/",
-	"status": "offline",
+	"status": "online",
 	"version": "cocoon 263b01f",
 	"inviteCodeRequired": true,
 	"firstSeenAt": 1784508567825,
-	"errorAt": 1785891331142
+	"errorAt": null
 }
