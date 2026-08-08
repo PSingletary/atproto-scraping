@@ -1,7 +1,7 @@
 {
 	"url": "https://labels.divine.video/",
 	"did": "did:plc:p6gqmqyvjhy7b67g5tntd4ew",
-	"status": "unreachable",
+	"status": "online",
 	"firstSeenAt": 1786071324080,
-	"errorAt": 1786071966818
+	"errorAt": null
 }
