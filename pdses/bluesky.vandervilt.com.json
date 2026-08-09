@@ -1,8 +1,8 @@
 {
 	"url": "https://bluesky.vandervilt.com/",
-	"status": "offline",
-	"version": "0.4.5009",
+	"status": "online",
+	"version": "0.4.5026",
 	"inviteCodeRequired": true,
 	"firstSeenAt": 1773912872947,
-	"errorAt": 1786155069961
+	"errorAt": null
 }

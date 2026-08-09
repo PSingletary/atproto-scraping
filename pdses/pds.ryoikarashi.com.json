@@ -1,6 +1,8 @@
 {
 	"url": "https://pds.ryoikarashi.com/",
-	"status": "unreachable",
+	"status": "online",
+	"version": "cirrus 0.18.0",
+	"inviteCodeRequired": false,
 	"firstSeenAt": 1785804453285,
-	"errorAt": 1785805119938
+	"errorAt": null
 }
