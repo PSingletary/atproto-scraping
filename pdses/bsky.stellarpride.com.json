@@ -1,8 +1,8 @@
 {
 	"url": "https://bsky.stellarpride.com/",
-	"status": "online",
+	"status": "offline",
 	"version": "0.4.219",
 	"inviteCodeRequired": true,
 	"firstSeenAt": 1780190036292,
-	"errorAt": null
+	"errorAt": 1786328719339
 }
