@@ -1,9 +1,9 @@
 {
 	"did": "did:web:atfs.dev",
 	"status": "online",
-	"firstSeenAt": 1786328073467,
-	"errorAt": null,
 	"hash": "WllaBBs5kgp0wJPOsCJVBGMVf0vd21iREAIuPT2iIfw",
 	"pds": "https://eurosky.social/",
-	"labeler": null
+	"labeler": null,
+	"firstSeenAt": 1786328073467,
+	"errorAt": null
 }
