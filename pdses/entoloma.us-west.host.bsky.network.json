@@ -1,8 +1,8 @@
 {
 	"url": "https://entoloma.us-west.host.bsky.network/",
-	"status": "offline",
-	"version": "git-f5b411d",
+	"status": "online",
+	"version": "git-6dac4dd",
 	"inviteCodeRequired": true,
 	"firstSeenAt": 1773912872947,
-	"errorAt": 1786588753902
+	"errorAt": null
 }

@@ -1,8 +1,8 @@
 {
 	"url": "https://fairway.iameli.link/",
-	"status": "online",
+	"status": "offline",
 	"version": "streamplace v0.11.19-a63e0783",
 	"inviteCodeRequired": true,
 	"firstSeenAt": 1781227046514,
-	"errorAt": null
+	"errorAt": 1786674986565
 }
