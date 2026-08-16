@@ -1,8 +1,8 @@
 {
 	"url": "https://pds.lvdar.nl/",
-	"status": "offline",
+	"status": "online",
 	"version": "0.4.5009",
 	"inviteCodeRequired": true,
 	"firstSeenAt": 1786588018764,
-	"errorAt": 1786674986565
+	"errorAt": null
 }
