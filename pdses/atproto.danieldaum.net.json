@@ -1,7 +1,7 @@
 {
 	"url": "https://atproto.danieldaum.net/",
 	"status": "online",
-	"version": "tranquil 0.6.5",
+	"version": "tranquil 0.6.6",
 	"inviteCodeRequired": true,
 	"firstSeenAt": 1784767677521,
 	"errorAt": null

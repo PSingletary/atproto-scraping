@@ -1,8 +1,8 @@
 {
 	"url": "https://bsky.kiva.lgbt/",
-	"status": "online",
+	"status": "offline",
 	"version": "tranquil 0.6.6",
 	"inviteCodeRequired": true,
 	"firstSeenAt": 1787189835631,
-	"errorAt": null
+	"errorAt": 1787277177066
 }
