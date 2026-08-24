@@ -1,8 +1,8 @@
 {
 	"url": "https://pds.edriffles.us/",
-	"status": "offline",
+	"status": "online",
 	"version": "0.5.29",
 	"inviteCodeRequired": true,
 	"firstSeenAt": 1787276522817,
-	"errorAt": 1787363224730
+	"errorAt": null
 }
