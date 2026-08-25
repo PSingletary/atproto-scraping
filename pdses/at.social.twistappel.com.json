@@ -1,8 +1,8 @@
 {
 	"url": "https://at.social.twistappel.com/",
-	"status": "offline",
+	"status": "online",
 	"version": "0.4.5009",
 	"inviteCodeRequired": true,
 	"firstSeenAt": 1781572911517,
-	"errorAt": 1787277177066
+	"errorAt": null
 }
