@@ -1,9 +1,9 @@
 {
 	"did": "did:web:brad.quest",
-	"status": "online",
+	"status": "offline",
 	"hash": "XEtHUoUXP0970ZiDf_mxZsdfgwo04KsM8TvKYOiA4VA",
 	"pds": "https://hermitary.brad.quest/",
 	"labeler": null,
 	"firstSeenAt": 1775349077192,
-	"errorAt": null
+	"errorAt": 1787820098635
 }
