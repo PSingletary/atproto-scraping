@@ -1,8 +1,8 @@
 {
 	"url": "https://pds2.ofdev.net/",
-	"status": "online",
+	"status": "offline",
 	"version": "0.5.29",
 	"inviteCodeRequired": true,
 	"firstSeenAt": 1787621871475,
-	"errorAt": null
+	"errorAt": 1787915150664
 }
