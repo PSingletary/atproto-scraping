@@ -1,0 +1,7 @@
+{
+	"url": "https://httpbin.org/",
+	"did": "did:plc:clv2wfkzikyd7ud2lsr6exs3",
+	"status": "unreachable",
+	"firstSeenAt": 1787985623489,
+	"errorAt": 1787986184863
+}
