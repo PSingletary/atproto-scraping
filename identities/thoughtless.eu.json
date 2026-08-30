@@ -1,6 +1,9 @@
 {
 	"did": "did:web:thoughtless.eu",
-	"status": "unreachable",
+	"status": "online",
+	"hash": "Hk68XMnYv6fd0PJNvTNgk_pz47m0GM5Kwt_ISRU9kPU",
+	"pds": "https://pds.mocha.thoughtless.eu/",
+	"labeler": null,
 	"firstSeenAt": 1787985623489,
-	"errorAt": 1787985623489
+	"errorAt": null
 }
