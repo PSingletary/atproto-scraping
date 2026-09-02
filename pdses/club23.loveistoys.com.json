@@ -1,8 +1,8 @@
 {
 	"url": "https://club23.loveistoys.com/",
-	"status": "online",
+	"status": "offline",
 	"version": "0.5.29",
 	"inviteCodeRequired": true,
 	"firstSeenAt": 1788152236963,
-	"errorAt": null
+	"errorAt": 1788322164841
 }

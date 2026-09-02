@@ -1,8 +1,8 @@
 {
 	"url": "https://pdsok.souverain.ovh/",
-	"status": "online",
+	"status": "offline",
 	"version": "0.4.5027",
 	"inviteCodeRequired": true,
 	"firstSeenAt": 1788237388208,
-	"errorAt": null
+	"errorAt": 1788322164841
 }
