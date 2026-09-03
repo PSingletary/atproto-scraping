@@ -1,8 +1,8 @@
 {
 	"url": "https://atproto.jad.tl/",
-	"status": "offline",
+	"status": "online",
 	"version": "0.4.5009",
 	"inviteCodeRequired": true,
 	"firstSeenAt": 1784767677521,
-	"errorAt": 1788152875606
+	"errorAt": null
 }
