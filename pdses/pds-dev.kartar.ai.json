@@ -1,6 +1,8 @@
 {
 	"url": "https://pds-dev.kartar.ai/",
-	"status": "unreachable",
+	"status": "online",
+	"version": "0.4.219",
+	"inviteCodeRequired": true,
 	"firstSeenAt": 1787535763699,
-	"errorAt": 1787536384878
+	"errorAt": null
 }

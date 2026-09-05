@@ -1,8 +1,8 @@
 {
 	"url": "https://pds.scenius.social/",
-	"status": "online",
+	"status": "offline",
 	"version": "0.4.5026",
 	"inviteCodeRequired": false,
 	"firstSeenAt": 1786154444663,
-	"errorAt": null
+	"errorAt": 1788581242447
 }

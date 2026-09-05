@@ -1,8 +1,8 @@
 {
 	"url": "https://pds.quokka.wiki/",
-	"status": "online",
+	"status": "offline",
 	"version": "0.4.5027",
 	"inviteCodeRequired": true,
 	"firstSeenAt": 1786501516519,
-	"errorAt": null
+	"errorAt": 1788581242447
 }
