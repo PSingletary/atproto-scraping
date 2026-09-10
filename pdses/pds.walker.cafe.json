@@ -1,8 +1,8 @@
 {
 	"url": "https://pds.walker.cafe/",
-	"status": "offline",
+	"status": "online",
 	"version": "0.4.5027",
 	"inviteCodeRequired": true,
 	"firstSeenAt": 1784422135154,
-	"errorAt": 1788927695966
+	"errorAt": null
 }

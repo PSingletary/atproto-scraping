@@ -1,8 +1,8 @@
 {
 	"url": "https://consciousness.stream/",
-	"status": "offline",
+	"status": "online",
 	"version": null,
 	"inviteCodeRequired": true,
 	"firstSeenAt": 1773912872947,
-	"errorAt": 1788927695966
+	"errorAt": null
 }
