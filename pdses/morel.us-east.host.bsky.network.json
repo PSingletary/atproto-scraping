@@ -1,8 +1,8 @@
 {
 	"url": "https://morel.us-east.host.bsky.network/",
-	"status": "offline",
+	"status": "online",
 	"version": "git-158bdf3",
 	"inviteCodeRequired": true,
 	"firstSeenAt": 1773912872947,
-	"errorAt": 1789100297890
+	"errorAt": null
 }
