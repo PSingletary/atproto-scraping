@@ -1,6 +1,8 @@
 {
 	"url": "https://bsky.wolf.or.kr/",
-	"status": "unreachable",
+	"status": "online",
+	"version": "0.4.5034",
+	"inviteCodeRequired": true,
 	"firstSeenAt": 1788580605295,
-	"errorAt": 1788581242447
+	"errorAt": null
 }
