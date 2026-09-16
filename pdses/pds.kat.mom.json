@@ -1,8 +1,8 @@
 {
 	"url": "https://pds.kat.mom/",
-	"status": "offline",
+	"status": "online",
 	"version": "tranquil 0.6.4",
 	"inviteCodeRequired": true,
 	"firstSeenAt": 1779844177091,
-	"errorAt": 1789447010376
+	"errorAt": null
 }
