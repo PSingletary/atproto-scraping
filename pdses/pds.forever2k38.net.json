@@ -1,8 +1,8 @@
 {
 	"url": "https://pds.forever2k38.net/",
-	"status": "offline",
-	"version": "cocoon 0.10.0",
+	"status": "online",
+	"version": "tranquil 0.6.6",
 	"inviteCodeRequired": true,
 	"firstSeenAt": 1789446345809,
-	"errorAt": 1789533146500
+	"errorAt": null
 }
