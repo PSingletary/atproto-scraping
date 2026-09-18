@@ -1,6 +1,8 @@
 {
 	"url": "https://pds.sunnahsky.com/",
-	"status": "unreachable",
+	"status": "online",
+	"version": "0.5.28",
+	"inviteCodeRequired": true,
 	"firstSeenAt": 1789446345809,
-	"errorAt": 1789447010376
+	"errorAt": null
 }
