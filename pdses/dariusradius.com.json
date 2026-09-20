@@ -1,8 +1,8 @@
 {
 	"url": "https://dariusradius.com/",
-	"status": "offline",
+	"status": "online",
 	"version": "0.4.5034",
 	"inviteCodeRequired": true,
 	"firstSeenAt": 1788321523429,
-	"errorAt": 1789705369409
+	"errorAt": null
 }

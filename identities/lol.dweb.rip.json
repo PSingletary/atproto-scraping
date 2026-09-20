@@ -1,9 +1,9 @@
 {
 	"did": "did:web:lol.dweb.rip",
-	"status": "online",
-	"firstSeenAt": 1789790908411,
-	"errorAt": null,
+	"status": "offline",
 	"hash": "ImaKFwE4fSH2_0wjbF2dunUykLhit4x0w_EYuLjNBJQ",
 	"pds": "https://pds.rip/",
-	"labeler": null
+	"labeler": null,
+	"firstSeenAt": 1789790908411,
+	"errorAt": 1789878449522
 }
