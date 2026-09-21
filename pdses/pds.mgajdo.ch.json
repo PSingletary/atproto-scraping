@@ -1,8 +1,8 @@
 {
 	"url": "https://pds.mgajdo.ch/",
-	"status": "offline",
+	"status": "online",
 	"version": "0.4.5034",
 	"inviteCodeRequired": true,
 	"firstSeenAt": 1784422135154,
-	"errorAt": 1789879133968
+	"errorAt": null
 }
