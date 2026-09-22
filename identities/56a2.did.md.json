@@ -1,9 +1,9 @@
 {
 	"did": "did:web:56a2.did.md",
 	"status": "online",
-	"firstSeenAt": 1789964742638,
-	"errorAt": null,
-	"hash": "eFhopyvAcWMpurJeyezwZvjKtN89sbn6lvcUxwA5LIY",
+	"hash": "V82xUS8llOAdshuTN2eX2LU7SH2hz8C--f0nkoqBvQ0",
 	"pds": "https://pds.did.md/",
-	"labeler": null
+	"labeler": null,
+	"firstSeenAt": 1789964742638,
+	"errorAt": null
 }
