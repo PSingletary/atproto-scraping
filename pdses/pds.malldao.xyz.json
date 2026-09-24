@@ -1,7 +1,7 @@
 {
 	"url": "https://pds.malldao.xyz/",
-	"status": "offline",
+	"status": "online",
 	"inviteCodeRequired": true,
 	"firstSeenAt": 1789532471531,
-	"errorAt": 1790138781316
+	"errorAt": null
 }

@@ -1,8 +1,8 @@
 {
 	"url": "https://pds.tofu.social/",
-	"status": "offline",
-	"version": "tranquil 0.6.6",
+	"status": "online",
+	"version": "tranquil 0.6.7",
 	"inviteCodeRequired": true,
 	"firstSeenAt": 1784335417238,
-	"errorAt": 1790138781316
+	"errorAt": null
 }

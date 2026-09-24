@@ -1,8 +1,8 @@
 {
 	"url": "https://moderation.atchan.net/",
 	"did": "did:plc:4xebwpr6xrrxaygeza7bdbwd",
-	"status": "online",
+	"status": "offline",
 	"version": "0.1.167",
 	"firstSeenAt": 1783644710050,
-	"errorAt": null
+	"errorAt": 1790224953780
 }
