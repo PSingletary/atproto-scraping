@@ -1,9 +1,9 @@
 {
 	"did": "did:web:arrenfab0.kald.shop",
-	"status": "online",
-	"firstSeenAt": 1790223264921,
-	"errorAt": null,
+	"status": "offline",
 	"hash": "CW-7HYDEYFV6eF_D0izwA30KC2yFTbrMMkPb3pQKQhA",
 	"pds": "https://vas.kald.shop/",
-	"labeler": null
+	"labeler": null,
+	"firstSeenAt": 1790223264921,
+	"errorAt": 1790310408198
 }

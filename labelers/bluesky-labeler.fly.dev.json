@@ -1,8 +1,8 @@
 {
 	"url": "https://bluesky-labeler.fly.dev/",
 	"did": "did:plc:yitjux5wnswziabxdhvkydll",
-	"status": "online",
+	"status": "offline",
 	"version": "1.0.0",
 	"firstSeenAt": 1773912872947,
-	"errorAt": null
+	"errorAt": 1790311104612
 }
