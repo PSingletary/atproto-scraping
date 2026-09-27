@@ -1,8 +1,8 @@
 {
 	"url": "https://atproto.kiva.lgbt/",
-	"status": "offline",
+	"status": "online",
 	"version": "tranquil 0.6.6",
 	"inviteCodeRequired": true,
 	"firstSeenAt": 1787276522817,
-	"errorAt": 1790397752098
+	"errorAt": null
 }
