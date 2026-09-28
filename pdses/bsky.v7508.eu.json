@@ -1,8 +1,8 @@
 {
 	"url": "https://bsky.v7508.eu/",
-	"status": "offline",
+	"status": "online",
 	"version": "0.4.5034",
 	"inviteCodeRequired": true,
 	"firstSeenAt": 1777683457777,
-	"errorAt": 1790485239609
+	"errorAt": null
 }

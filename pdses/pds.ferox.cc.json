@@ -1,8 +1,8 @@
 {
 	"url": "https://pds.ferox.cc/",
-	"status": "offline",
+	"status": "online",
 	"version": "0.4.5034",
 	"inviteCodeRequired": true,
 	"firstSeenAt": 1779066462939,
-	"errorAt": 1790485239609
+	"errorAt": null
 }

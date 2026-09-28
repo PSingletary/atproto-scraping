@@ -1,8 +1,8 @@
 {
 	"url": "https://pds.galifrey.dev/",
-	"status": "offline",
+	"status": "online",
 	"version": "0.4.5034",
 	"inviteCodeRequired": true,
 	"firstSeenAt": 1787708582051,
-	"errorAt": 1790485239609
+	"errorAt": null
 }

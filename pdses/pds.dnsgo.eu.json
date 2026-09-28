@@ -1,8 +1,8 @@
 {
 	"url": "https://pds.dnsgo.eu/",
-	"status": "offline",
+	"status": "online",
 	"version": "0.4.5034",
 	"inviteCodeRequired": true,
 	"firstSeenAt": 1786241313444,
-	"errorAt": 1790485239609
+	"errorAt": null
 }
