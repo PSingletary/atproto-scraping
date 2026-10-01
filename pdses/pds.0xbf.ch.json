@@ -1,8 +1,8 @@
 {
 	"url": "https://pds.0xbf.ch/",
-	"status": "online",
+	"status": "offline",
 	"version": "0.4.5034",
 	"inviteCodeRequired": true,
 	"firstSeenAt": 1790744667035,
-	"errorAt": null
+	"errorAt": 1790832647912
 }

@@ -1,8 +1,8 @@
 {
 	"url": "https://pds.custorium.eu/",
-	"status": "offline",
+	"status": "online",
 	"version": "custorium unknown",
 	"inviteCodeRequired": true,
 	"firstSeenAt": 1790050872481,
-	"errorAt": 1790224953780
+	"errorAt": null
 }
