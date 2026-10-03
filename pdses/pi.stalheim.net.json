@@ -1,8 +1,8 @@
 {
 	"url": "https://pi.stalheim.net/",
-	"status": "offline",
-	"version": "0.4.5036",
+	"status": "online",
+	"version": "0.4.5037",
 	"inviteCodeRequired": true,
 	"firstSeenAt": 1786674314839,
-	"errorAt": 1790918379450
+	"errorAt": null
 }
