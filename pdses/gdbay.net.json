@@ -1,6 +1,8 @@
 {
 	"url": "https://gdbay.net/",
-	"status": "unreachable",
+	"status": "online",
+	"version": "gdbay-local",
+	"inviteCodeRequired": true,
 	"firstSeenAt": 1788840232870,
-	"errorAt": 1790224953780
+	"errorAt": null
 }
