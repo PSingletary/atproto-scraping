@@ -1,7 +1,7 @@
 {
 	"url": "https://pds.fps.social/",
 	"status": "online",
-	"version": "latest",
+	"version": "v0.4.1",
 	"inviteCodeRequired": true,
 	"firstSeenAt": 1788407879418,
 	"errorAt": null
