@@ -1,6 +1,8 @@
 {
 	"url": "https://pds.linkjar.social/",
-	"status": "unreachable",
+	"status": "online",
+	"version": "0.5.34",
+	"inviteCodeRequired": true,
 	"firstSeenAt": 1790917621653,
-	"errorAt": 1790918379450
+	"errorAt": null
 }

@@ -1,8 +1,8 @@
 {
 	"url": "https://at.horlo.net/",
-	"status": "offline",
+	"status": "online",
 	"version": "tranquil 0.6.6",
 	"inviteCodeRequired": true,
 	"firstSeenAt": 1789013280091,
-	"errorAt": 1791266614484
+	"errorAt": null
 }
