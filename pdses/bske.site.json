@@ -1,8 +1,8 @@
 {
 	"url": "https://bske.site/",
-	"status": "online",
+	"status": "offline",
 	"version": "tranquil 0.6.0",
 	"inviteCodeRequired": false,
 	"firstSeenAt": 1791176735511,
-	"errorAt": null
+	"errorAt": 1791696279698
 }
