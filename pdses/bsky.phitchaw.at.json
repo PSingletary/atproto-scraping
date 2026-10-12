@@ -1,8 +1,8 @@
 {
 	"url": "https://bsky.phitchaw.at/",
-	"status": "offline",
+	"status": "online",
 	"version": null,
 	"inviteCodeRequired": true,
 	"firstSeenAt": 1773912872947,
-	"errorAt": 1791610368999
+	"errorAt": null
 }
