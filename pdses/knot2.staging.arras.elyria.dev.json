@@ -1,7 +1,7 @@
 {
 	"url": "https://knot2.staging.arras.elyria.dev/",
-	"status": "offline",
+	"status": "online",
 	"version": "knot 2.0.0",
 	"firstSeenAt": 1791695633547,
-	"errorAt": 1791783500239
+	"errorAt": null
 }
