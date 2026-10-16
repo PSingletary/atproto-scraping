@@ -1,6 +1,8 @@
 {
 	"url": "https://newdisabledsouth.community/",
-	"status": "unreachable",
+	"status": "online",
+	"version": "1.14.10",
+	"inviteCodeRequired": true,
 	"firstSeenAt": 1791524275114,
-	"errorAt": 1791524952765
+	"errorAt": null
 }

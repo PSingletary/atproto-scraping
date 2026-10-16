@@ -1,8 +1,8 @@
 {
 	"url": "https://contraria.schmidt.monster/",
 	"did": "did:plc:wsxvsh3dkqzgxxqxkmo3nnuj",
-	"status": "offline",
+	"status": "online",
 	"version": "0.4.2",
 	"firstSeenAt": 1791265939069,
-	"errorAt": 1792037980141
+	"errorAt": null
 }

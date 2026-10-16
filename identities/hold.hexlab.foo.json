@@ -1,6 +1,9 @@
 {
 	"did": "did:web:hold.hexlab.foo",
-	"status": "unreachable",
+	"status": "online",
+	"hash": "16Ljz07M36VPKVVQQe-eWl4XNJhzk0zU2fQ2ojIpuWY",
+	"pds": "https://hold.hexlab.foo/",
+	"labeler": null,
 	"firstSeenAt": 1792037291548,
-	"errorAt": 1792037291548
+	"errorAt": null
 }
