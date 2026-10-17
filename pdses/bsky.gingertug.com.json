@@ -1,6 +1,8 @@
 {
 	"url": "https://bsky.gingertug.com/",
-	"status": "unreachable",
+	"status": "online",
+	"version": "0.4.5037",
+	"inviteCodeRequired": true,
 	"firstSeenAt": 1792123449318,
-	"errorAt": 1792124184700
+	"errorAt": null
 }
