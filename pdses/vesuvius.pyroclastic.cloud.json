@@ -1,7 +1,7 @@
 {
 	"url": "https://vesuvius.pyroclastic.cloud/",
 	"status": "online",
-	"version": "0.15.0-rc.6+52170f38",
+	"version": "0.15.0-rc.6+91f7d8fa98",
 	"inviteCodeRequired": true,
 	"firstSeenAt": 1785986086414,
 	"errorAt": null
