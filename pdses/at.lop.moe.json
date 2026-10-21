@@ -1,8 +1,8 @@
 {
 	"url": "https://at.lop.moe/",
-	"status": "online",
+	"status": "offline",
 	"version": "cocoon 0.11.4",
 	"inviteCodeRequired": true,
 	"firstSeenAt": 1778979993080,
-	"errorAt": null
+	"errorAt": 1792556697600
 }
