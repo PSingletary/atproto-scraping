@@ -1,7 +1,7 @@
 {
 	"url": "https://labeler.seamark.dev/",
 	"did": "did:plc:4zul2zfigjltl24ti24xj3hy",
-	"status": "offline",
+	"status": "online",
 	"firstSeenAt": 1778461504514,
-	"errorAt": 1792556697600
+	"errorAt": null
 }
