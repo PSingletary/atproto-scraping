@@ -1,8 +1,8 @@
 {
 	"url": "https://labeler.wireservice.net/",
 	"did": "did:plc:hzjwybpjds675eb5f2pcygwy",
-	"status": "offline",
+	"status": "online",
 	"version": "0.2.0",
 	"firstSeenAt": 1792123449318,
-	"errorAt": 1792643103213
+	"errorAt": null
 }

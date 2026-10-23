@@ -1,8 +1,8 @@
 {
 	"url": "https://ozone.kandayuri.net/",
 	"did": "did:plc:p22r625jumw54ast5uk6mjpn",
-	"status": "online",
+	"status": "offline",
 	"version": null,
 	"firstSeenAt": 1787449517441,
-	"errorAt": null
+	"errorAt": 1792729752548
 }
