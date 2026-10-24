@@ -1,8 +1,8 @@
 {
 	"url": "https://pds.amras.me/",
-	"status": "online",
+	"status": "offline",
 	"version": "0.4.5046",
 	"inviteCodeRequired": true,
 	"firstSeenAt": 1777165109532,
-	"errorAt": null
+	"errorAt": 1792815597083
 }
