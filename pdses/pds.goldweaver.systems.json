@@ -1,8 +1,8 @@
 {
 	"url": "https://pds.goldweaver.systems/",
-	"status": "offline",
+	"status": "online",
 	"version": "tranquil 0.6.5",
 	"inviteCodeRequired": true,
 	"firstSeenAt": 1778115627349,
-	"errorAt": 1792296746274
+	"errorAt": null
 }
