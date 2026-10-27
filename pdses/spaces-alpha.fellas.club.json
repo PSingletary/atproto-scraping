@@ -1,8 +1,8 @@
 {
 	"url": "https://spaces-alpha.fellas.club/",
-	"status": "offline",
-	"version": "0.5.29",
+	"status": "online",
+	"version": "0.5.32",
 	"inviteCodeRequired": true,
 	"firstSeenAt": 1788237388208,
-	"errorAt": 1792988781646
+	"errorAt": null
 }
