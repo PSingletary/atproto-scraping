@@ -1,7 +1,7 @@
 {
 	"url": "https://pds.samb.al/",
 	"status": "online",
-	"version": "tranquil 0.7.0",
+	"version": "tranquil 0.7.1",
 	"inviteCodeRequired": true,
 	"firstSeenAt": 1785631804158,
 	"errorAt": null

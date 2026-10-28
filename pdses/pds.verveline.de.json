@@ -1,8 +1,8 @@
 {
 	"url": "https://pds.verveline.de/",
-	"status": "online",
+	"status": "offline",
 	"version": "0.4.5046",
 	"inviteCodeRequired": true,
 	"firstSeenAt": 1792814874189,
-	"errorAt": null
+	"errorAt": 1793164696056
 }

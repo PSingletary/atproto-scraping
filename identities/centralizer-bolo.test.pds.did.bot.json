@@ -1,0 +1,9 @@
+{
+	"did": "did:web:centralizer-bolo.test.pds.did.bot",
+	"status": "online",
+	"firstSeenAt": 1793163936175,
+	"errorAt": null,
+	"hash": "GU3HXwy9ubj_OkaXgmumcztZmgkX-eXtWrk_z4Rq5Pc",
+	"pds": "https://pds.did.bot/",
+	"labeler": null
+}

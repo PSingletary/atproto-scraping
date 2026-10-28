@@ -1,8 +1,8 @@
 {
 	"url": "https://pds.deathbybandaid.net/",
-	"status": "offline",
+	"status": "online",
 	"version": "0.4.5037",
 	"inviteCodeRequired": true,
 	"firstSeenAt": 1792555978294,
-	"errorAt": 1793076369390
+	"errorAt": null
 }
