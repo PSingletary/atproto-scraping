@@ -1,8 +1,8 @@
 {
 	"url": "https://pds1.rx-sns-dev.uk/",
-	"status": "offline",
+	"status": "online",
 	"version": "0.1.0",
 	"inviteCodeRequired": true,
 	"firstSeenAt": 1782868404992,
-	"errorAt": 1793164696056
+	"errorAt": null
 }

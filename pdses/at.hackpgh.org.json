@@ -1,8 +1,8 @@
 {
 	"url": "https://at.hackpgh.org/",
-	"status": "offline",
+	"status": "online",
 	"version": "tranquil 0.6.6",
 	"inviteCodeRequired": true,
 	"firstSeenAt": 1785890611235,
-	"errorAt": 1793164696056
+	"errorAt": null
 }

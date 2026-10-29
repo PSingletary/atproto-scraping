@@ -1,8 +1,8 @@
 {
 	"url": "https://puppydataserver.com/",
-	"status": "offline",
+	"status": "online",
 	"version": "pegasus dev",
 	"inviteCodeRequired": true,
 	"firstSeenAt": 1775003559559,
-	"errorAt": 1793164696056
+	"errorAt": null
 }
