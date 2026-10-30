@@ -1,6 +1,7 @@
 {
 	"url": "https://knot.dunkirk.sh/",
-	"status": "unreachable",
+	"status": "online",
+	"version": "knot 2.0.0",
 	"firstSeenAt": 1791872673174,
-	"errorAt": 1792470871732
+	"errorAt": null
 }
