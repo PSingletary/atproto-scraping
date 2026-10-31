@@ -1,6 +1,7 @@
 {
 	"url": "https://knot.ronshavit.com/",
-	"status": "unreachable",
+	"status": "online",
+	"version": "knot 1.2.0",
 	"firstSeenAt": 1792729014475,
-	"errorAt": 1792729752548
+	"errorAt": null
 }

@@ -1,6 +1,7 @@
 {
 	"url": "https://knot.drainpixie.xyz/",
-	"status": "unreachable",
+	"status": "online",
+	"version": "knot 1.20.0",
 	"firstSeenAt": 1792988052804,
-	"errorAt": 1793251857198
+	"errorAt": null
 }

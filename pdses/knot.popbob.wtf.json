@@ -1,6 +1,7 @@
 {
 	"url": "https://knot.popbob.wtf/",
-	"status": "unreachable",
+	"status": "online",
+	"version": "knot 1.20.0",
 	"firstSeenAt": 1790397075509,
-	"errorAt": 1793164696056
+	"errorAt": null
 }

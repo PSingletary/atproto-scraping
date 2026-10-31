@@ -1,6 +1,7 @@
 {
 	"url": "https://tangled-knot.jcg.re/",
-	"status": "unreachable",
+	"status": "online",
+	"version": "knot 1.2.0",
 	"firstSeenAt": 1792814874189,
-	"errorAt": 1793164696056
+	"errorAt": null
 }

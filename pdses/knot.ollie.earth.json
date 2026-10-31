@@ -1,6 +1,7 @@
 {
 	"url": "https://knot.ollie.earth/",
-	"status": "unreachable",
+	"status": "online",
+	"version": "knot 1.20.0",
 	"firstSeenAt": 1792296059430,
-	"errorAt": 1792296746274
+	"errorAt": null
 }
