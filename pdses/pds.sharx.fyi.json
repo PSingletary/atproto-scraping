@@ -1,8 +1,8 @@
 {
 	"url": "https://pds.sharx.fyi/",
-	"status": "offline",
+	"status": "online",
 	"version": null,
 	"inviteCodeRequired": true,
 	"firstSeenAt": 1787103518901,
-	"errorAt": 1793511756556
+	"errorAt": null
 }
