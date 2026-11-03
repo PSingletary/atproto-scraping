@@ -1,7 +1,7 @@
 {
 	"url": "https://knot.zekurio.me/",
-	"status": "online",
+	"status": "offline",
 	"version": "knot 1.20.0",
 	"firstSeenAt": 1793597336115,
-	"errorAt": null
+	"errorAt": 1793686960722
 }

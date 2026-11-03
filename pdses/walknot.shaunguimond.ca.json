@@ -1,6 +1,7 @@
 {
 	"url": "https://walknot.shaunguimond.ca/",
-	"status": "unreachable",
+	"status": "online",
+	"version": "knot 1.2.0",
 	"firstSeenAt": 1793422800372,
-	"errorAt": 1793598078642
+	"errorAt": null
 }

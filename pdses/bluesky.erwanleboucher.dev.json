@@ -1,8 +1,8 @@
 {
 	"url": "https://bluesky.erwanleboucher.dev/",
-	"status": "offline",
+	"status": "online",
 	"version": "cocoon b2989cf",
 	"inviteCodeRequired": true,
 	"firstSeenAt": 1774398402743,
-	"errorAt": 1793598078642
+	"errorAt": null
 }

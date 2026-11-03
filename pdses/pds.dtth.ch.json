@@ -1,8 +1,8 @@
 {
 	"url": "https://pds.dtth.ch/",
-	"status": "offline",
-	"version": "tranquil 0.6.7",
+	"status": "online",
+	"version": "tranquil 0.7.1",
 	"inviteCodeRequired": true,
 	"firstSeenAt": 1787985623489,
-	"errorAt": 1792556697600
+	"errorAt": null
 }

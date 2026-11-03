@@ -1,6 +1,7 @@
 {
 	"url": "https://knot.commonscomputer.com/",
-	"status": "unreachable",
+	"status": "online",
+	"version": "knot 1.20.0",
 	"firstSeenAt": 1787449517441,
-	"errorAt": 1792556697600
+	"errorAt": null
 }
