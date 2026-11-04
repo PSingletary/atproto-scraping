@@ -1,8 +1,8 @@
 {
 	"url": "https://cocoon-pds.atserver.farm/",
-	"status": "offline",
+	"status": "online",
 	"version": "cocoon 0.11.3",
 	"inviteCodeRequired": true,
 	"firstSeenAt": 1781140467040,
-	"errorAt": 1792643103213
+	"errorAt": null
 }

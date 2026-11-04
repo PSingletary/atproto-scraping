@@ -1,8 +1,8 @@
 {
 	"url": "https://yrriban.net/",
-	"status": "online",
+	"status": "offline",
 	"version": "cocoon dev-local",
 	"inviteCodeRequired": true,
 	"firstSeenAt": 1793686105029,
-	"errorAt": null
+	"errorAt": 1793772237737
 }

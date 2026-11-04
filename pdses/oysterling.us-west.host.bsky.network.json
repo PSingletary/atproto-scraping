@@ -1,8 +1,8 @@
 {
 	"url": "https://oysterling.us-west.host.bsky.network/",
-	"status": "online",
+	"status": "offline",
 	"version": "git-4744b4a",
 	"inviteCodeRequired": true,
 	"firstSeenAt": 1773912872947,
-	"errorAt": null
+	"errorAt": 1793772237737
 }

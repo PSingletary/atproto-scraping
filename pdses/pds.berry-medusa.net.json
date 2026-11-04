@@ -1,8 +1,8 @@
 {
 	"url": "https://pds.berry-medusa.net/",
-	"status": "offline",
+	"status": "online",
 	"version": "0.4.5051",
 	"inviteCodeRequired": true,
 	"firstSeenAt": 1789186012102,
-	"errorAt": 1793686960722
+	"errorAt": null
 }
