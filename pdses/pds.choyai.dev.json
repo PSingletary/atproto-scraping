@@ -1,6 +1,8 @@
 {
 	"url": "https://pds.choyai.dev/",
-	"status": "unreachable",
+	"status": "online",
+	"version": "tranquil 0.7.1",
+	"inviteCodeRequired": true,
 	"firstSeenAt": 1793771217485,
-	"errorAt": 1793772237737
+	"errorAt": null
 }
