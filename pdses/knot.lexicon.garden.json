@@ -1,6 +1,7 @@
 {
 	"url": "https://knot.lexicon.garden/",
-	"status": "unreachable",
+	"status": "online",
+	"version": "knot 1.20.0",
 	"firstSeenAt": 1791350712289,
-	"errorAt": 1793164696056
+	"errorAt": null
 }
