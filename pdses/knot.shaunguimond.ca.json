@@ -1,6 +1,7 @@
 {
 	"url": "https://knot.shaunguimond.ca/",
-	"status": "unreachable",
+	"status": "online",
+	"version": "knot 1.20.0",
 	"firstSeenAt": 1794029495907,
-	"errorAt": 1794030328322
+	"errorAt": null
 }
