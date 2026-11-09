@@ -1,7 +1,7 @@
 {
 	"url": "https://knot.nelind.dk/",
-	"status": "offline",
+	"status": "online",
 	"version": "knot 1.20.0",
 	"firstSeenAt": 1793511062843,
-	"errorAt": 1794116728956
+	"errorAt": null
 }

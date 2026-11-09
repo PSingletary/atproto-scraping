@@ -1,9 +1,9 @@
 {
 	"did": "did:web:ordinal-machete.test.pds.did.bot",
 	"status": "online",
-	"firstSeenAt": 1794115984312,
-	"errorAt": null,
 	"hash": "Bb3GoUhkGa-5BkaDFgQJYkOJvtiprWt3__FebWHASz0",
 	"pds": "https://pds.did.bot/",
-	"labeler": null
+	"labeler": null,
+	"firstSeenAt": 1794115984312,
+	"errorAt": null
 }

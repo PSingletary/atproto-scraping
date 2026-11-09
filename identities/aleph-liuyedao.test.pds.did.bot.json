@@ -1,9 +1,9 @@
 {
 	"did": "did:web:aleph-liuyedao.test.pds.did.bot",
 	"status": "online",
-	"firstSeenAt": 1794115984312,
-	"errorAt": null,
 	"hash": "3fZmjMbCxjQJfPTzh3WZ94WGEhd_NDYuwTeguGErYmA",
 	"pds": "https://pds.did.bot/",
-	"labeler": null
+	"labeler": null,
+	"firstSeenAt": 1794115984312,
+	"errorAt": null
 }
