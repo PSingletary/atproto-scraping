@@ -1,8 +1,8 @@
 {
 	"url": "https://pds.aicensus.co/",
-	"status": "offline",
+	"status": "online",
 	"version": "0.4.5051",
 	"inviteCodeRequired": false,
 	"firstSeenAt": 1794202994797,
-	"errorAt": 1794294321990
+	"errorAt": null
 }
