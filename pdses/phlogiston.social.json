@@ -1,8 +1,8 @@
 {
 	"url": "https://phlogiston.social/",
-	"status": "online",
+	"status": "offline",
 	"version": "0.4.5037",
 	"inviteCodeRequired": true,
 	"firstSeenAt": 1791782813508,
-	"errorAt": null
+	"errorAt": 1794466822484
 }
