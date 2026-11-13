@@ -1,7 +1,7 @@
 {
 	"url": "https://knot.butwho.org/",
-	"status": "offline",
+	"status": "online",
 	"version": "knot 1.20.0",
 	"firstSeenAt": 1793422800372,
-	"errorAt": 1794466822484
+	"errorAt": null
 }

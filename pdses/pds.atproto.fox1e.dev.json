@@ -1,8 +1,8 @@
 {
 	"url": "https://pds.atproto.fox1e.dev/",
-	"status": "online",
+	"status": "offline",
 	"version": "tranquil 0.7.1",
 	"inviteCodeRequired": true,
 	"firstSeenAt": 1790050872481,
-	"errorAt": null
+	"errorAt": 1794550606186
 }

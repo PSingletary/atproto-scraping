@@ -1,6 +1,8 @@
 {
 	"url": "https://pds.cloudskyai.com/",
-	"status": "unreachable",
+	"status": "online",
+	"version": "0.4.5051",
+	"inviteCodeRequired": true,
 	"firstSeenAt": 1794466021190,
-	"errorAt": 1794466822484
+	"errorAt": null
 }

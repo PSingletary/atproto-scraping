@@ -1,7 +1,7 @@
 {
 	"url": "https://cairn2.nearhorizon.app/",
 	"did": "did:web:cairn2.nearhorizon.app",
-	"status": "online",
+	"status": "offline",
 	"firstSeenAt": 1794466021190,
-	"errorAt": null
+	"errorAt": 1794550606186
 }

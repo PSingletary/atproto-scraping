@@ -1,8 +1,8 @@
 {
 	"url": "https://tranquil.aylac.top/",
-	"status": "offline",
+	"status": "online",
 	"version": "tranquil 0.7.1",
 	"inviteCodeRequired": true,
 	"firstSeenAt": 1773912872947,
-	"errorAt": 1794466822484
+	"errorAt": null
 }
