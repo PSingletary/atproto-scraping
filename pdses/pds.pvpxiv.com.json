@@ -1,8 +1,8 @@
 {
 	"url": "https://pds.pvpxiv.com/",
-	"status": "offline",
+	"status": "online",
 	"version": "0.4.5037",
 	"inviteCodeRequired": true,
 	"firstSeenAt": 1792209305388,
-	"errorAt": 1794722672122
+	"errorAt": null
 }

@@ -1,6 +1,8 @@
 {
 	"url": "https://hl0dwig.fr/",
-	"status": "unreachable",
+	"status": "online",
+	"version": "0.4.5051",
+	"inviteCodeRequired": true,
 	"firstSeenAt": 1794635489961,
-	"errorAt": 1794636332306
+	"errorAt": null
 }
