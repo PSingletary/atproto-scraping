@@ -1,8 +1,8 @@
 {
 	"url": "https://did-key-zq3shmasg8qxnjkuha8jztothie26opmen8nwg29sfd5i5mjk.xrpc.fedproxy.com/",
-	"status": "online",
+	"status": "offline",
 	"version": "socialweb-pds",
 	"inviteCodeRequired": false,
 	"firstSeenAt": 1794900559991,
-	"errorAt": null
+	"errorAt": 1794985586675
 }
