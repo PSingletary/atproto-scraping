@@ -1,6 +1,8 @@
 {
 	"url": "https://u.pds1.jannisk.dev/",
-	"status": "unreachable",
+	"status": "online",
+	"version": "cocoon 821936a",
+	"inviteCodeRequired": true,
 	"firstSeenAt": 1794984804023,
-	"errorAt": 1794985586675
+	"errorAt": null
 }

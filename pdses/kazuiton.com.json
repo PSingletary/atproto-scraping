@@ -1,8 +1,8 @@
 {
 	"url": "https://kazuiton.com/",
-	"status": "online",
+	"status": "offline",
 	"version": "tranquil 0.7.1",
 	"inviteCodeRequired": true,
 	"firstSeenAt": 1794466021190,
-	"errorAt": null
+	"errorAt": 1795072073900
 }
