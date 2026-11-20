@@ -1,8 +1,8 @@
 {
 	"url": "https://pds.silverdiamond.uk/",
-	"status": "offline",
+	"status": "online",
 	"version": "0.4.5051",
 	"inviteCodeRequired": true,
 	"firstSeenAt": 1794029495907,
-	"errorAt": 1795072073900
+	"errorAt": null
 }

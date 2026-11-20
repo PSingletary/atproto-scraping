@@ -1,7 +1,7 @@
 {
 	"url": "https://knot.bas.sh/",
-	"status": "offline",
+	"status": "online",
 	"version": "knot 1.20.1",
 	"firstSeenAt": 1793337464995,
-	"errorAt": 1795072073900
+	"errorAt": null
 }

@@ -1,8 +1,8 @@
 {
 	"url": "https://pegasus.bas.sh/",
-	"status": "offline",
-	"version": "pegasus 352369a7a07b33a547e9e56971eb546436544d67",
+	"status": "online",
+	"version": "pegasus 2174883",
 	"inviteCodeRequired": true,
 	"firstSeenAt": 1773912872947,
-	"errorAt": 1795072073900
+	"errorAt": null
 }

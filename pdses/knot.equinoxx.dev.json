@@ -1,7 +1,7 @@
 {
 	"url": "https://knot.equinoxx.dev/",
-	"status": "offline",
+	"status": "online",
 	"version": "knot 1.20.0",
 	"firstSeenAt": 1793422800372,
-	"errorAt": 1795072073900
+	"errorAt": null
 }
