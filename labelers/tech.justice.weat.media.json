@@ -1,7 +1,7 @@
 {
 	"url": "https://tech.justice.weat.media/",
 	"did": "did:plc:sayrze6evala5hjal3ww7sqe",
-	"status": "unreachable",
+	"status": "online",
 	"firstSeenAt": 1794721940554,
-	"errorAt": 1794722672122
+	"errorAt": null
 }

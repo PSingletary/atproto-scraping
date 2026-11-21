@@ -1,7 +1,7 @@
 {
 	"url": "https://knot.caurea.org/",
-	"status": "offline",
+	"status": "online",
 	"version": "knot 1.20.1",
 	"firstSeenAt": 1794549792863,
-	"errorAt": 1795157921284
+	"errorAt": null
 }

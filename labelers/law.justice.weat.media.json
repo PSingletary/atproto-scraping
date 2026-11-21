@@ -1,7 +1,7 @@
 {
 	"url": "https://law.justice.weat.media/",
 	"did": "did:plc:u5gp2cev2xdjg54ffwvu3t4s",
-	"status": "unreachable",
+	"status": "online",
 	"firstSeenAt": 1794721940554,
-	"errorAt": 1794722672122
+	"errorAt": null
 }
