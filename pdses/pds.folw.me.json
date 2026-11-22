@@ -2,7 +2,7 @@
 	"url": "https://pds.folw.me/",
 	"status": "online",
 	"version": "0.5.34",
-	"inviteCodeRequired": false,
+	"inviteCodeRequired": true,
 	"firstSeenAt": 1781745384015,
 	"errorAt": null
 }

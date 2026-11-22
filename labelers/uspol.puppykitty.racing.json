@@ -1,7 +1,7 @@
 {
 	"url": "https://uspol.puppykitty.racing/",
 	"did": "did:plc:xwq5acimyyzd5pv4iklkez5a",
-	"status": "offline",
+	"status": "online",
 	"firstSeenAt": 1793858725614,
-	"errorAt": 1795243859862
+	"errorAt": null
 }

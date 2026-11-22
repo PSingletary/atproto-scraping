@@ -1,0 +1,9 @@
+{
+	"did": "did:web:hold.neuros.is",
+	"status": "online",
+	"firstSeenAt": 1795327599239,
+	"errorAt": null,
+	"hash": "sRNgf-so5YoT4Pku57Td0h6jw4NWsjFvvRFs8tDdz88",
+	"pds": "https://hold.neuros.is/",
+	"labeler": null
+}
