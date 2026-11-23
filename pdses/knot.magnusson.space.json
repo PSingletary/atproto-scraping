@@ -1,7 +1,7 @@
 {
 	"url": "https://knot.magnusson.space/",
-	"status": "online",
+	"status": "offline",
 	"version": "knot 1.20.1",
 	"firstSeenAt": 1795071254600,
-	"errorAt": null
+	"errorAt": 1795417900309
 }
