@@ -1,8 +1,8 @@
 {
 	"url": "https://pds.jogga.fit/",
-	"status": "offline",
+	"status": "online",
 	"version": null,
-	"inviteCodeRequired": false,
+	"inviteCodeRequired": true,
 	"firstSeenAt": 1790659010387,
-	"errorAt": 1795417900309
+	"errorAt": null
 }

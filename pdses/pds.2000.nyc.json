@@ -1,8 +1,8 @@
 {
 	"url": "https://pds.2000.nyc/",
-	"status": "offline",
-	"version": "tranquil 0.7.1",
+	"status": "online",
+	"version": "tranquil 0.8.0",
 	"inviteCodeRequired": true,
 	"firstSeenAt": 1791176735511,
-	"errorAt": 1795417900309
+	"errorAt": null
 }

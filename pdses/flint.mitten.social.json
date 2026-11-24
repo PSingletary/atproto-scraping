@@ -1,8 +1,8 @@
 {
 	"url": "https://flint.mitten.social/",
-	"status": "offline",
+	"status": "online",
 	"version": "0.4.219",
 	"inviteCodeRequired": true,
 	"firstSeenAt": 1778634229913,
-	"errorAt": 1795417900309
+	"errorAt": null
 }
