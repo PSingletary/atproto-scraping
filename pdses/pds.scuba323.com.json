@@ -1,8 +1,8 @@
 {
 	"url": "https://pds.scuba323.com/",
-	"status": "offline",
+	"status": "online",
 	"version": "0.4.5065",
 	"inviteCodeRequired": true,
 	"firstSeenAt": 1794900559991,
-	"errorAt": 1795680027430
+	"errorAt": null
 }
