@@ -1,7 +1,7 @@
 {
 	"url": "https://knot.perny.dev/",
-	"status": "offline",
+	"status": "online",
 	"version": "knot 1.20.0",
 	"firstSeenAt": 1794029495907,
-	"errorAt": 1795766486547
+	"errorAt": null
 }

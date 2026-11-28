@@ -1,0 +1,9 @@
+{
+	"did": "did:web:scalar-bowie.test.pds.did.bot",
+	"status": "online",
+	"firstSeenAt": 1795850202450,
+	"errorAt": null,
+	"hash": "tlBpZDDgT45hJS9TUMtBunXlWVx8bbgusOJqKBjlsnQ",
+	"pds": "https://pds.did.bot/",
+	"labeler": null
+}
